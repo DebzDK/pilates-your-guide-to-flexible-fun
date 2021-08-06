@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #BABABF;
+    color: #262626;
+    font-family: PTSerif, 'Times New Roman', Times, serif;
+}
+
+/*#region Headings, navigation menu, logo */
+nav {
+    background-color: whitesmoke;
+    line-height: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+}
+
+nav h1 {
+    position: absolute;
+    display: inline;
+    margin: 0 0 0 15px;
+    top: 20px;
+    font-size: 2rem;
+}
+
+#menu {
+    display: inline;
+    position: absolute;
+    right: 20px;
+    font-size: 2rem;
+    list-style-type: none;
+}
+
+#menu > li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#menu > li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu > li a:hover {
+    border-bottom: 1px solid #262626;
+}
+/*#endregion */
