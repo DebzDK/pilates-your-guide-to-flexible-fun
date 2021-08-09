@@ -12,6 +12,10 @@ body {
     font-family: PTSerif, 'Times New Roman', Times, serif;
 }
 
+h1, h2 {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 /*#region Headings, navigation menu, logo */
 nav {
     background-color: whitesmoke;
@@ -121,7 +125,7 @@ nav h1 {
 
 #header-image {
     position: absolute;
-    background: url(../images/header-image.jpg) no-repeat center/cover;
+    background: url(../images/header-image.jpg) no-repeat center/cover #6c748c66;
 }
 
 #header-text {
@@ -140,3 +144,43 @@ nav h1 {
 }
 /*#endregion*/
 
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex-direction: column;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.center-aligned {
+    text-align: center;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+section h2 {
+    background-color: #ffffff55;
+    border: 1px solid rgba(0,0,0,.4);
+}
+
+section p {
+    font-size: 1.3rem;
+}
+
+
+@media screen and (max-width: 800px){
+    #main-content {
+        display: block;
+    }
+    
+    .column {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
