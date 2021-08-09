@@ -16,8 +16,8 @@ body {
 nav {
     background-color: whitesmoke;
     line-height: 50px;
-    height: 50px;
-    padding: 20px;
+    height: 90px;
+    display: flex;
 }
 
 #logo {
@@ -25,47 +25,118 @@ nav {
     width: 50px;
 }
 
+#menu-container, #logo-container {
+    flex: 1;
+}
+
+#logo-container {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
 nav h1 {
-    position: absolute;
     display: inline;
-    margin: 0 0 0 15px;
-    top: 20px;
+    vertical-align: text-bottom;
+    margin-left: 15px;
     font-size: 2rem;
 }
 
 #menu {
-    display: inline;
-    position: absolute;
-    right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     font-size: 2rem;
+    vertical-align: text-bottom;
     list-style-type: none;
+    height: 100%;
 }
 
 #menu > li {
-    display: inline-block;
-    margin-left: 20px;
+    height: 100%;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+#menu > li:hover {
+    background-color: rgba(108,116,140, .4);
+}
+
+#menu > li:hover a {
+    color: whitesmoke;
+}
+
+#menu > li:hover div a {
+    color: inherit;
 }
 
 #menu > li a {
     text-decoration: none;
     color: inherit;
+    padding-right: 20px;
 }
 
-#menu > li a:hover {
-    border-bottom: 1px solid #262626;
+#menu > hr {
+    background-color: black;
+    width: 1px;
+    height: 50px;
+}
+
+.dropdown-menu {
+    position: relative;
+}
+
+.dropdown-content {
+    width: 200px;
+    top: 90px;
+    left: 0px;
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-menu:hover .dropdown-content {
+    display: block;
 }
 /*#endregion */
 
-#header-image {
+/*#region Header */
+.header-dimensions {
     width: 100%;
     height: 600px;
+}
+
+#header-image {
+    position: absolute;
     background: url(../images/header-image.jpg) no-repeat center/cover;
 }
 
 #header-text {
-    position: absolute;
-    top: 50%;
-    right: 50px;
     font-size: 2rem;
     opacity: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#header-text-bg
+{
+    background-color: mintcream;
+    text-align: center;
+    opacity: 0.8;
+}
+/*#endregion*/
+

@@ -15,28 +15,39 @@
 
     <body>
         <nav>
-            <img id="logo" src="assets/images/logo.png" alt="Site logo">
-            <h1>Pilates - Your Guide to Flexible Fun</h1>
+            <div id="logo-container">
+                <img id="logo" src="assets/images/logo.png" alt="Site logo">
+                <h1>Pilates - Your Guide to Flexible Fun</h1>
+            </div>
 
-            <ul id="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Mindfulness</a>
-                </li>
-                <li>
-                    <a href="#">Purpose</a>
-                </li>
-            </ul>
+            <div id="menu-container">
+                <ul id="menu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <hr>
+                    <li class="dropdown-menu">
+                        <a href="#" class="dropdown-btn">Mindfulness</a>
+                        <div class="dropdown-content">
+                            <a href="#">Body</a>
+                            <a href="#">Mental Health</a>
+                        </div>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Purpose</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
         <header>
-            <div id="header-image"></div>
-            <h2 id="header-text">Creating balance between mind and body</h2>
+            <div id="header-image" class="header-dimensions"></div>
+            <h2 id="header-text" class="header-dimensions">
+                <div id="header-text-bg">Creating balance between mind and body</div>
+            </h2>
         </header>
 
-        <section></section>
         <section></section>
         <section></section>
         <section></section>
