@@ -6,6 +6,10 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #BABABF;
     color: #262626;
