@@ -9,11 +9,11 @@
 body {
     background-color: #BABABF;
     color: #262626;
-    font-family: PTSerif, 'Times New Roman', Times, serif;
+    font-family: 'PT Serif', 'Times New Roman', Times, serif;
 }
 
 h1, h2 {
-    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /*#region Headings, navigation menu, logo */
