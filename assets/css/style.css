@@ -115,6 +115,10 @@ nav h1 {
 .dropdown-menu:hover .dropdown-content {
     display: block;
 }
+
+.shadow-effect {
+    box-shadow: 0 4px 8px #6c748c66 inset;
+}
 /*#endregion */
 
 /*#region Header */
@@ -148,6 +152,7 @@ nav h1 {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    box-shadow: 4px 0px 10px 4px #6c748c66 inset
 }
 
 .column {
@@ -171,6 +176,20 @@ section h2 {
 
 section p {
     font-size: 1.3rem;
+}
+
+#mindful-body {
+    background-color: #6c748c;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#mindful-mental {
+    background-color: #f2918877;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
