@@ -161,6 +161,10 @@ nav h1 {
     margin: 0 10px;
 }
 
+.left-aligned {
+    text-align: left;
+}
+
 .center-aligned {
     text-align: center;
 }
@@ -190,6 +194,10 @@ section p {
     padding: 0 20px;
     display: flex;
     justify-content: flex-end;
+}
+
+#mindful-mental div {
+    width: 100%;
 }
 
 
