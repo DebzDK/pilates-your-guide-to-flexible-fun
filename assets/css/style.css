@@ -67,7 +67,7 @@ nav h1 {
 }
 
 #menu > li:hover {
-    background-color: rgba(108,116,140, .4);
+    background-color: rgb(97, 33, 76, .8);
 }
 
 #menu > li:hover a {
