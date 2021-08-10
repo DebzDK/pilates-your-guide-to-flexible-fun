@@ -217,11 +217,10 @@ section p {
 .mindful-bg {
     position: absolute;
     z-index: -1;
-    height: 97%;
+    height: 100%;
     width: 100%;
     border-radius: 20px;
     opacity: .2;
-    margin-top: 15px;
     box-shadow: 2px 5px 5px #262626;
     border: 1px solid;
 }
@@ -242,10 +241,6 @@ section p {
 
 #mindful-mental div:not(.mindful-bg) {
     width: 100%;
-}
-
-#mindful-mental div.mindful-bg {
-    height: 97%;
 }
 
 #closing-content {
