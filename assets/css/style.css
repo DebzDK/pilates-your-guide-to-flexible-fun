@@ -285,4 +285,12 @@ footer {
         text-align: center;
         padding-bottom: 30px;
     }
+
+    #mindful-img-1 {
+        content:url(../images/mindfulness-body-2-image.jpg);
+    }
+
+    #mindful-img-2 {
+        content:url(../images/mindfulness-mental-2-image.jpg);
+    }
 }
