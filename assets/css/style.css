@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT Serif&family=Raleway&display=swap');
 
 * {
     margin: 0;
@@ -13,11 +13,11 @@ html {
 body {
     background-color: #BABABF;
     color: #262626;
-    font-family: 'PT Serif', 'Times New Roman', Times, serif;
+    font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-h1, h2 {
-    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+nav, h2 {
+    font-family: 'PT Serif', 'Times New Roman', Times, serif;
 }
 
 /*#region Headings, navigation menu, logo */
@@ -33,6 +33,7 @@ nav h1 {
     vertical-align: text-bottom;
     margin-left: 15px;
     font-size: 2rem;
+    font-weight: 500;
 }
 
 #logo {
@@ -47,11 +48,6 @@ nav h1 {
 #logo-container {
     padding-left: 20px;
     padding-top: 20px;
-}
-
-#logo-container h2 {
-    margin-left: 15px;
-    font-weight: 500;
 }
 
 #menu {
