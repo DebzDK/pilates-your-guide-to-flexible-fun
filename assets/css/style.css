@@ -23,7 +23,6 @@ nav, h2, footer {
 /*#region Headings, navigation menu, logo */
 nav {
     background-color: whitesmoke;
-    line-height: 50px;
     height: 90px;
     display: flex;
 }
