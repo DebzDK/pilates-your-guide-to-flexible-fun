@@ -28,6 +28,13 @@ nav {
     display: flex;
 }
 
+nav h1 {
+    display: inline;
+    vertical-align: text-bottom;
+    margin-left: 15px;
+    font-size: 2rem;
+}
+
 #logo {
     height: 50px;
     width: 50px;
@@ -42,18 +49,16 @@ nav {
     padding-top: 20px;
 }
 
-nav h1 {
-    display: inline;
-    vertical-align: text-bottom;
+#logo-container h2 {
     margin-left: 15px;
-    font-size: 2rem;
+    font-weight: 500;
 }
 
 #menu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     vertical-align: text-bottom;
     list-style-type: none;
     height: 100%;
@@ -86,7 +91,7 @@ nav h1 {
 
 #menu > hr {
     background-color: black;
-    width: 1px;
+    width: .5px;
     height: 50px;
 }
 
@@ -95,7 +100,7 @@ nav h1 {
 }
 
 .dropdown-content {
-    width: 200px;
+    width: 198px;
     top: 90px;
     left: 0px;
     display: none;
@@ -147,7 +152,6 @@ nav h1 {
 #header-text-bg
 {
     background-color: mintcream;
-    text-align: center;
     opacity: 0.8;
 }
 /*#endregion*/
@@ -156,7 +160,6 @@ nav h1 {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    box-shadow: 4px 0px 10px 4px #6c748c66 inset
 }
 
 .column {
@@ -179,7 +182,7 @@ nav h1 {
 
 section h2 {
     background-color: #ffffff55;
-    border: 1px solid rgba(0,0,0,.4);
+    border: 1px solid rgba(0, 0, 0, .4);
 }
 
 section p {
