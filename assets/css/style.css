@@ -195,10 +195,6 @@ section p {
     padding: 50px 20px;
 }
 
-#mindfulness-content section h2 {
-    width: 50%;
-}
-
 #mindfulness-content section img {
     height: 83vh;
     position: -webkit-sticky;
@@ -286,11 +282,42 @@ footer {
         padding-bottom: 30px;
     }
 
+    #mindfulness-content {
+        text-align: center;
+    }
+
+    iframe {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #mindfulness-content section img {
+        height: 50vh;
+        position: relative;
+        padding: 20px;
+    }
+    
+    #mindfulness-content section > div:not(.mindful-bg) {
+        padding: 20px;
+    }
+
     #mindful-img-1 {
         content:url(../images/mindfulness-body-2-image.jpg);
     }
 
     #mindful-img-2 {
         content:url(../images/mindfulness-mental-2-image.jpg);
+    }
+
+    #mindful-body {
+        flex-direction: column;
+    }
+
+    #mindful-mental {
+        flex-direction: column-reverse;
+    }
+
+    #mindful-mental div:not(.mindful-bg) {
+        width: auto;
     }
 }
