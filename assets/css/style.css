@@ -252,6 +252,22 @@ section p {
     width: 100%;
 }
 
+#body-video-collection {
+    display: inline-block;
+}
+
+#body-video-collection iframe:not(:last-child) {
+    width: 45%;
+}
+
+#mental-video-collection {
+    display: flex;
+}
+
+#mental-video-collection > iframe {
+    width: 50%;
+}
+
 #closing-content {
     padding: 50px 20px;
 }
@@ -279,16 +295,10 @@ footer {
     
     .column {
         text-align: center;
-        padding-bottom: 30px;
     }
 
     #mindfulness-content {
         text-align: center;
-    }
-
-    iframe {
-        width: 100%;
-        box-sizing: border-box;
     }
 
     #mindfulness-content section img {
@@ -319,5 +329,19 @@ footer {
 
     #mindful-mental div:not(.mindful-bg) {
         width: auto;
+    }
+
+    #body-video-collection {
+        display: block;
+    }
+
+    #mental-video-collection {
+        display: block;
+    }
+
+    #mindfulness-content #mindful-body iframe,
+    #mindfulness-content #mindful-mental iframe {
+        width: 100%;
+        box-sizing: border-box;
     }
 }
