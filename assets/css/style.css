@@ -72,7 +72,7 @@ nav h1 {
 }
 
 #menu > li:hover {
-    background-color: rgb(97, 33, 76, .8);
+    background-color: rgba(97, 33, 76, .8);
 }
 
 #menu > li:hover a {
@@ -126,7 +126,7 @@ nav h1 {
 }
 
 .shadow-effect {
-    box-shadow: 0 4px 8px #6c748c66 inset;
+    box-shadow: 0 5px 5px #6c748c66 inset;
 }
 /*#endregion */
 
@@ -156,10 +156,11 @@ nav h1 {
 }
 /*#endregion*/
 
+/*#region Content */
 #main-content {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px 20px;
 }
 
 .column {
@@ -189,26 +190,73 @@ section p {
     font-size: 1.3rem;
 }
 
+#mindfulness-content {
+    padding: 50px 20px;
+}
+
+#mindfulness-content section img {
+    height: 80vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border-radius: 5%;
+    filter: drop-shadow(2px 4px 6px #262626);
+}
+
+#mindfulness-content section div:not(.mindful-bg) {
+    padding: 50px;
+}
+
 #mindful-body {
-    background-color: #6c748c;
-    padding: 0 20px;
+    position: relative;
+    margin-bottom: 20px;
     display: flex;
     justify-content: flex-start;
 }
 
+.mindful-bg {
+    position: absolute;
+    z-index: -1;
+    height: 97%;
+    width: 100%;
+    border-radius: 20px;
+    opacity: .2;
+    margin-top: 15px;
+    box-shadow: 2px 5px 5px #262626;
+    border: 1px solid;
+}
+
+#mindful-bg-1 {
+    background-color: #6c748c;
+}
+
+#mindful-bg-2 {
+    background-color: #f29188;
+}
+
 #mindful-mental {
-    background-color: #f2918877;
-    padding: 0 20px;
+    position: relative;
     display: flex;
     justify-content: flex-end;
 }
 
-#mindful-mental div {
+#mindful-mental div:not(.mindful-bg) {
     width: 100%;
 }
 
+#mindful-mental div.mindful-bg {
+    height: 97%;
+}
+
 #closing-content {
-    padding: 20px;
+    padding: 50px 20px;
+}
+/*#endregion*/
+
+.separator {
+    height: .5px;
+    background-color: #26262677;
+    margin: 0 20%;
 }
 
 footer {
