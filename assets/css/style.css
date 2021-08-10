@@ -20,6 +20,10 @@ nav, h2, footer {
     font-family: 'PT Serif', 'Times New Roman', Times, serif;
 }
 
+iframe {
+    padding: 20px;
+}
+
 /*#region Headings, navigation menu, logo */
 nav {
     background-color: whitesmoke;
@@ -184,14 +188,19 @@ section h2 {
 
 section p {
     font-size: 1.3rem;
+    padding: 10px 0;
 }
 
 #mindfulness-content {
     padding: 50px 20px;
 }
 
+#mindfulness-content section h2 {
+    width: 50%;
+}
+
 #mindfulness-content section img {
-    height: 80vh;
+    height: 83vh;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -199,7 +208,7 @@ section p {
     filter: drop-shadow(2px 4px 6px #262626);
 }
 
-#mindfulness-content section div:not(.mindful-bg) {
+#mindfulness-content section > div:not(.mindful-bg) {
     padding: 50px;
 }
 
@@ -208,6 +217,10 @@ section p {
     margin-bottom: 20px;
     display: flex;
     justify-content: flex-start;
+}
+
+#mindful-body > img {    
+    padding: 50px 0 50px 50px;
 }
 
 .mindful-bg {
@@ -233,6 +246,10 @@ section p {
     position: relative;
     display: flex;
     justify-content: flex-end;
+}
+
+#mindful-mental > img {    
+    padding: 50px 50px 50px 0;
 }
 
 #mindful-mental div:not(.mindful-bg) {
