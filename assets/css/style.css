@@ -293,11 +293,8 @@ footer {
         display: block;
     }
     
-    .column {
-        text-align: center;
-    }
-
-    #mindfulness-content {
+    .column,
+    #mindfulness-content div > p {
         text-align: center;
     }
 
