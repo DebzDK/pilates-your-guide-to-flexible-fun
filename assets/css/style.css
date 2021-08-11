@@ -20,10 +20,6 @@ nav, h2, footer {
     font-family: 'PT Serif', 'Times New Roman', Times, serif;
 }
 
-iframe {
-    padding: 20px;
-}
-
 /*#region Headings, navigation menu, logo */
 nav {
     background-color: whitesmoke;
@@ -276,20 +272,23 @@ section p {
     width: 100%;
 }
 
-#body-video-collection {
-    display: inline-block;
+iframe {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-#body-video-collection iframe:not(:last-child) {
-    width: 45%;
+#body-video-collection iframe:last-child {
+    margin: 0 auto;
 }
 
+#body-video-collection,
 #mental-video-collection {
     display: flex;
 }
 
-#mental-video-collection > iframe {
-    width: 50%;
+#body-video-collection {
+    flex-wrap: wrap;
 }
 
 #closing-content {
@@ -312,6 +311,12 @@ footer {
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 1200px) {    
+    #body-video-collection iframe:last-child {
+        width: auto;
+    }
+}
+
 @media screen and (max-width: 1070px) {
     #menu {
         display: none;
@@ -329,6 +334,31 @@ footer {
         text-align: center;
         flex: 1;
     }
+
+    #burger-menu .dropdown-content {
+        left: -88px;
+    }
+}
+
+@media screen and (max-width: 1001px) {
+    #body-video-collection > iframe,
+    #body-video-collection iframe:not(:last-child),
+    #mental-video-collection > iframe {
+        width: 100%;
+    }
+
+    #mindful-mental div:not(.mindful-bg) {
+        width: auto;
+    }
+
+    #body-video-collection,
+    #mental-video-collection {
+        display: block;
+    }
+    
+    #body-video-collection iframe:last-child {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -342,7 +372,7 @@ footer {
     }
 
     #mindfulness-content section img {
-        height: 50vh;
+        height: 50%;
         position: relative;
         padding: 20px;
     }
@@ -366,28 +396,10 @@ footer {
     #mindful-mental {
         flex-direction: column-reverse;
     }
-
-    #mindful-mental div:not(.mindful-bg) {
-        width: auto;
-    }
-
-    #body-video-collection {
-        display: block;
-    }
-
-    #mental-video-collection {
-        display: block;
-    }
-
-    #mindfulness-content #mindful-body iframe,
-    #mindfulness-content #mindful-mental iframe {
-        width: 100%;
-        box-sizing: border-box;
-    }
 }
 
 @media screen and (max-width: 695px) {
-    nav h1, #menu{
+    nav h1, #menu {
         font-size: 1.5rem;
     }
 }
