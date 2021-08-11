@@ -44,17 +44,18 @@ nav h1 {
     width: 50px;
 }
 
-#menu-container, #logo-container {
-    flex: 1;
-}
-
 #logo-container {
     display: flex;
+    flex: 2;
     align-items: center;
     padding-left: 20px;
 }
 
-#menu {
+#menu-container {
+    flex: 1;
+}
+
+#menu, #small-screen-menu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -65,25 +66,32 @@ nav h1 {
 }
 
 #menu > li {
-    height: 100%;
     display: flex;
-    padding-left: 20px;
+    height: 100%;
     align-items: center;
 }
 
-#menu > li:hover {
+#menu > li, #small-screen-menu > li {
+    padding-left: 20px;
+}
+
+#menu > li:hover,
+#small-screen-menu > li:hover {
     background-color: rgba(97, 33, 76, .8);
 }
 
-#menu > li:hover a {
+#menu > li:hover a,
+#small-screen-menu > li:hover a {
     color: whitesmoke;
 }
 
-#menu > li:hover div a {
+#menu > li:hover div a,
+#small-screen-menu > li:hover div a {
     color: inherit;
 }
 
-#menu > li a {
+#menu > li a,
+#small-screen-menu > li a {
     text-decoration: none;
     color: inherit;
     padding-right: 20px;
@@ -123,6 +131,22 @@ nav h1 {
 
 .dropdown-menu:hover .dropdown-content {
     display: block;
+}
+
+#burger-menu {
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+.bar {
+    background-color: #262626;
+    width: 50px;
+    height: 2px;
+    margin-bottom: 10px;
 }
 
 .shadow-effect {
@@ -288,6 +312,25 @@ footer {
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 1070px) {
+    #menu {
+        display: none;
+    }
+
+    #burger-menu {
+        display: flex;
+    }
+
+    #menu-container {
+        flex: 0;
+    }
+
+    nav h1 {
+        text-align: center;
+        flex: 1;
+    }
+}
+
 @media screen and (max-width: 800px) {
     #main-content {
         display: block;
@@ -340,5 +383,17 @@ footer {
     #mindfulness-content #mindful-mental iframe {
         width: 100%;
         box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    nav h1, #menu{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    nav h1 {
+        display: none;
     }
 }
