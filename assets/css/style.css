@@ -183,6 +183,10 @@ nav h1 {
     padding: 50px 20px;
 }
 
+#purpose {
+   box-shadow: -5px -10px 6px -8px #6c748c66 inset
+}
+
 #main-content {
     display: flex;
     justify-content: space-between;
