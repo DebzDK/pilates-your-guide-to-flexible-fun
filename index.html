@@ -16,7 +16,7 @@
     <body>
         <nav>
             <div id="logo-container">
-                <img id="logo" src="assets/images/logo.png" alt="Site logo">
+                <img class="logo" src="assets/images/logo.png" alt="Site logo">
                 <h1>Pilates - Your Guide to Flexible Fun</h1>
             </div>
 
@@ -223,8 +223,8 @@
         <footer>
             <section class="column">
                 <div class="row">
-                    <img src="assets/images/logo.png" alt="Site logo">
-                    <form method="POST">
+                    <img id="footer-logo" class="logo vertical-center" src="assets/images/logo.png" alt="Site logo">
+                    <form method="POST" action="confirmation.html" class="vertical-center">
                         <label for="email">Subscribe for more app and YouTube channel recommendations</label>
                         <hr class="form-separator">
                         <input type="email" id="email" name="email-address" placeholder="Enter your email address" required>
@@ -248,19 +248,19 @@
                     It is not scientifically-proven nor professional advice and does not constitute a medical advisory service.
                 </span>
             </section>
-            <section class="column">
+            <section class="column centered-content">
                 <h4>Navigation</h4>
-                <ul>
-                    <li>
+                <ul id="footer-nav-list">
+                    <li class="footer-nav-list-item">
                         <a href="index.html">Home</a>
                     </li>
-                    <li>
+                    <li class="footer-nav-list-item">
                         <a href="#mindful-body">Body</a>
                     </li>
-                    <li>
+                    <li class="footer-nav-list-item">
                         <a href="#mindful-mental">Mental Health</a>
                     </li>
-                    <li>
+                    <li class="footer-nav-list-item">
                         <a href="#purpose">Purpose</a>
                     </li>
                 </ul>
