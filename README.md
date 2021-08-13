@@ -66,7 +66,7 @@ Each feature listed below was chosen to provide users with a clear, logical path
 
 * CSS
     * 1 error was found and fixed (see commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/13cf30d710514d969eed371f093967e1288a7826)) after passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun&profile=css3svg&usermedium=all&warning=1&vextwarning=).
-    * There is 1 warning regarding use of a vendor extension. The CSS referred to in this warning is necessary for compatibility in IE.
+    * There is 1 warning regarding use of a vendor extension. The CSS referred to in this warning is necessary for compatibility in Safari.
 
 * Accessibility
     * 1 error and 9 alerts were found and fixed after running the [WAVE Accessibility Evaluation tool](https://wave.webaim.org/report#/https://debzdk.github.io/pilates-your-guide-to-flexible-fun).
