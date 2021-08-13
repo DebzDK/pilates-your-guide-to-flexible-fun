@@ -300,6 +300,7 @@ iframe {
     width: 50%;
     padding: 20px;
     box-sizing: border-box;
+    border: none;
 }
 
 #body-video-collection iframe:last-child {
