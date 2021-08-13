@@ -42,7 +42,7 @@ Each feature listed below was chosen to provide users with a clear, logical path
     ![Header image](documentation/screenshots/mental-section.jpg)
     
 * Purpose section
-    * The 'Purpose' section will conclude the page, briefly highlighting the aim of the webpage and listing recommended apps for the user to try if they are interested in viewing more material that can help them with pilates and/or with relaxation.
+    * The 'Purpose' section will conclude the page, briefly highlighting the aim of the webpage and listing recommended apps in the form of QR codes. This provides the user with more material that can help them with pilates and/or with relaxation if they are interested.
 
     ![Header image](documentation/screenshots/purpose-section.jpg)
 
