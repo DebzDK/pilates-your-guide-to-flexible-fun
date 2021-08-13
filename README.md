@@ -70,6 +70,10 @@ Each feature listed below was chosen to provide users with a clear, logical path
 
 * Accessibility
     * 1 error and 9 alerts were found and fixed after running the [WAVE Accessibility Evaluation tool](https://wave.webaim.org/report#/https://debzdk.github.io/pilates-your-guide-to-flexible-fun).
+
+    ![Header image](documentation/screenshots/wave-accessibility-evaluation-tool-report-image-1.jpg)
+    ![Header image](documentation/screenshots/wave-accessibility-evaluation-tool-report-image-2.jpg)
+
     * Manual foreground and background colour testing
         * Navigation bar
             * Text\
