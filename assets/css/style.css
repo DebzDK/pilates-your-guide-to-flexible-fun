@@ -16,18 +16,20 @@ body {
     font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-nav, h2, footer {
+header,
+h2,
+footer {
     font-family: 'PT Serif', 'Times New Roman', Times, serif;
 }
 
 /*#region Headings, navigation menu, logo */
-nav {
+header {
     background-color: whitesmoke;
     height: 90px;
     display: flex;
 }
 
-nav h1 {
+h1 {
     display: inline;
     vertical-align: text-bottom;
     margin-left: 15px;
@@ -233,10 +235,6 @@ section h2 {
 section p {
     font-size: 1.3rem;
     padding: 10px 0;
-}
-
-#mindfulness-content {
-    padding: 50px 20px;
 }
 
 #mindfulness-content section img {
