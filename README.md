@@ -96,3 +96,11 @@ Each feature listed below was chosen to provide users with a clear, logical path
             * Links
             /
             Contrast Ratio: <b>[11.47:1](https://webaim.org/resources/contrastchecker/?fcolor=F29188&bcolor=61214C)</b>
+
+### Fixed bugs
+
+### Unfixed bugs
+
+## Deployment
+
+## Credits
