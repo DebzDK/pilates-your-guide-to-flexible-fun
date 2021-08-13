@@ -12,7 +12,7 @@ Each feature listed below was chosen to provide users with a clear, logical path
 * Navigation bar
   * Positioned at the top of the page, the full-length responsive navigation bar includes the site name, logo, and links to the home page, 'Mindfulness' sub-sections - 'Body' and 'Mental Health' and 'Purpose' section.
   * The 'Mindfulness' sub-sections become accessible from a dropdown menu when 'Mindfulness' is hovered in order to economise on space.
-  * The navigation bar layout adjusts to make use of available space on smaller screens, eventually becoming a burger menu when there is no longer enough space to display the words in the bar. This provides value for the user through ease of navigation by placing it in the position users typically expect to see a navivgatio bar.
+  * The navigation bar layout adjusts to make use of available space on smaller screens, eventually becoming a burger menu when there is no longer enough space to display the words in the bar. This provides value for the user through ease of navigation by placing it in the position users typically expect to see a navigation bar.
 
     ![Full-length site navigation bar image](documentation/screenshots/nav.jpg)
     ![Smaller site navigation bar image](documentation/screenshots/nav-smaller.jpg)
