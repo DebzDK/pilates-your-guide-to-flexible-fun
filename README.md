@@ -21,31 +21,31 @@ Each feature listed below was chosen to provide users with a clear, logical path
 * Landing page image
     * A photograph with text overlay is displayed to set the tone/aesthetic for the page.
     
-    ![Header image](documentation/screenshots/header-image-with-overlay.jpg)
+    ![Landing page image](documentation/screenshots/header-image-with-overlay.jpg)
 
 * Intro
     * The intro will answer 3 FAQs people typically have about pilates and give a brief overview of its background and benefits, allowing the user to get a high level idea of what pilates is about and what lies ahead if they continuing going through the site content.
 
-    ![Header image](documentation/screenshots/intro.jpg)
+    ![Intro section image](documentation/screenshots/intro.jpg)
 
 * Mindfulness - Body section
     * The 'Body' section will argue the importance of taking care of and paying attention to the body in order for it not to reach breaking point due to inactivity or not living a healthy lifestyle.
     * It provides links to 3 pilates YouTube videos to demonstrate pilates techniques to the user in the form of workout routines that last no longer than 30 minutes. This gives the user a visual learning experience rather than displaying more images of techniques paired with text.
     * A sticky image, depicting a woman executing a pilates technique/stretch for opening up the body's hip flexors, is shown to add movement to an otherwise static page but also to provide a user with an image relating to the section.
 
-    ![Header image](documentation/screenshots/body-section.jpg)
+    ![Body section image](documentation/screenshots/body-section.jpg)
 
 * Mindfulness - Mental Health section
     * The 'Mental Health' section will discuss the importance of reducing stress and taking time out to focus on one's self.
     * It also provides links to 2 short YouTube videos to demonstrate pilates techniques and streches to the user that are a good way to relax and wind down for the day. This adds to the user's visual learning experience started in the previous section.
     * A sticky image, depicting a woman relaxing, is shown to add movement to an otherwise static page but also to provide a user with an image relating to the section.
 
-    ![Header image](documentation/screenshots/mental-section.jpg)
+    ![Mental health section image](documentation/screenshots/mental-section.jpg)
     
 * Purpose section
     * The 'Purpose' section will conclude the page, briefly highlighting the aim of the webpage and listing recommended apps in the form of QR codes. This provides the user with more material that can help them with pilates and/or with relaxation if they are interested.
 
-    ![Header image](documentation/screenshots/purpose-section.jpg)
+    ![Purpose section image](documentation/screenshots/purpose-section.jpg)
 
 * Footer
     * The footer will provide:
@@ -53,16 +53,16 @@ Each feature listed below was chosen to provide users with a clear, logical path
         * a license declaration
         * a list of the navigation links within the page
 
-    ![Header image](documentation/screenshots/footer.jpg)
+    ![Footer image](documentation/screenshots/footer.jpg)
 
 ## Testing
 ### Validator testing
 * HTML
     * There were 12 HTML errors found, as shown below, and fixed after passing through the official [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun%2F).
     
-    ![Header image](documentation/screenshots/errors-1-to-3.jpg)
-    ![Header image](documentation/screenshots/errors-4-to-8.jpg)
-    ![Header image](documentation/screenshots/errors-9-to-12.jpg)
+    ![HTML validator errors 1-3 image](documentation/screenshots/errors-1-to-3.jpg)
+    ![HTML validator errors 4-8 image](documentation/screenshots/errors-4-to-8.jpg)
+    ![HTML validator errors 9-12 image](documentation/screenshots/errors-9-to-12.jpg)
 
 * CSS
     * 1 error was found and fixed (see commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/13cf30d710514d969eed371f093967e1288a7826)) after passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun&profile=css3svg&usermedium=all&warning=1&vextwarning=).
@@ -71,9 +71,9 @@ Each feature listed below was chosen to provide users with a clear, logical path
 * Accessibility
     * 1 error and 9 alerts were found and fixed after running the [WAVE Accessibility Evaluation tool](https://wave.webaim.org/report#/https://debzdk.github.io/pilates-your-guide-to-flexible-fun).
 
-    ![Header image](documentation/screenshots/wave-accessibility-evaluation-tool-report-image-1.jpg)
-    ![Header image](documentation/screenshots/wave-accessibility-evaluation-tool-report-image-2.jpg)
-    ![Header image](documentation/screenshots/wave-accessibility-evaluation-tool-report-after-fixes-image.jpg)
+    ![WAVE accessibility evaluation tool report image 1](documentation/screenshots/wave-accessibility-evaluation-tool-report-image-1.jpg)
+    ![WAVE accessibility evaluation tool report image 2](documentation/screenshots/wave-accessibility-evaluation-tool-report-image-2.jpg)
+    ![WAVE accessibility evaluation tool report after fixes image](documentation/screenshots/wave-accessibility-evaluation-tool-report-after-fixes-image.jpg)
 
     * Manual foreground and background colour testing
         * Navigation bar
