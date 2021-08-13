@@ -378,6 +378,10 @@ footer {
     margin: auto 0;
 }
 
+#form-section-header {
+    margin-left: 65px;
+}
+
 form {
     max-width: 240px;
 }
@@ -505,7 +509,11 @@ input {
         margin-right: 0;
     }
 
-    .footer-nav-list-item {
+    #form-section-header {
+        margin-bottom: 10px;
+    }
+
+    #form-section-header, .footer-nav-list-item {
         margin-left: 0;
     }
 
