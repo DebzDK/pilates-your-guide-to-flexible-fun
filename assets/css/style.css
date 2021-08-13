@@ -417,7 +417,7 @@ input {
     height: 25px;
     border-radius: 5px;
     border: 1px solid whitesmoke;
-    background-color: #6C748C;
+    background-color: #dddddd;
 }
 
 @media screen and (max-width: 1200px) {    
