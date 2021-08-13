@@ -132,7 +132,7 @@ Since my work is in a publicly-accesible repository, it can be plagiarised in 3 
 
 The introductory content of the webpage, located under the landing page image, is based on information sourced from the [NHS](https://www.nhs.uk/live-well/exercise/guide-to-pilates/) and [Wikipedia](https://en.wikipedia.org/wiki/Pilates).
 
-All other content in this webpage is written in my own words and of my own opinion.
+All other textual content in this webpage is written in my own words and of my own opinion.
 
 ### Media
 
