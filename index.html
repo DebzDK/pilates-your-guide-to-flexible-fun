@@ -16,39 +16,39 @@
     <body>
         <nav>
             <div id="logo-container">
-                <img class="logo" src="assets/images/logo.png" alt="Site logo">
+                <img class="logo" src="assets/images/logo.png" alt="Site logo" aria-label="Site logo">
                 <h1>Pilates - Your Guide to Flexible Fun</h1>
             </div>
 
             <div id="menu-container">
                 <ul id="menu">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html" aria-label="Link to home page">Home</a>
                         <hr>
                     </li>
                     <li class="dropdown-menu">
-                        <a href="#" class="dropdown-btn">Mindfulness</a>
+                        <a href="#" class="dropdown-btn" role="button" aria-label="Navigate to mindfulness section button">Mindfulness</a>
                         <hr>
                         <div class="dropdown-content">
-                            <a href="#mindful-body">Body</a>
-                            <a href="#mindful-mental">Mental Health</a>
+                            <a href="#mindful-body" role="button" aria-label="Navigate to body section button">Body</a>
+                            <a href="#mindful-mental" role="button" aria-label="Navigate to mental health section button">Mental Health</a>
                         </div>
                     </li>
                     <li>
-                        <a href="#purpose">Purpose</a>
+                        <a href="#purpose" aria-label="Navigate to purpose section button">Purpose</a>
                     </li>
                 </ul>
                 <ul id="small-screen-menu">
                     <li id="burger-menu" class="dropdown-menu">
-                        <a href="#">
+                        <a href="#" aria-label="Navigation menu">
                             <hr class="bar">
                             <hr class="bar">
                             <hr class="bar">
                         </a>
                         <div class="dropdown-content">
-                            <a href="#home">Home</a>
-                            <a href="#mindful-body">Body</a>
-                            <a href="#mindful-mental">Mental Health</a>
+                            <a href="#home" role="button" aria-label="Navigate to home page button">Home</a>
+                            <a href="#mindful-body" role="button" aria-label="Navigate to body section button">Body</a>
+                            <a href="#mindful-mental" role="button" aria-label="Navigate to mental health section button">Mental Health</a>
                         </div>
                     </li>
                 </ul>
@@ -109,7 +109,9 @@
         <div id="mindfulness-content">
             <section id="mindful-body">
                 <div id="mindful-bg-1" class="mindful-bg"></div>
-                <img id="mindful-img-1" src="assets/images/mindfulness-body-image.jpg" alt="Woman doing hip flexor stretch with arms raised">
+                <img id="mindful-img-1" src="assets/images/mindfulness-body-image.jpg"
+                     alt="Woman doing hip flexor stretch with arms raised"
+                     aria-label="Image of woman doing hip flexor stretch with arms raised">
                 <div>
                     <h2 class="center-aligned">Body</h2>
                     <br>
@@ -141,14 +143,17 @@
                     <div id="body-video-collection" class="center-aligned">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/510FdqCvZ-k"
                                 title="YouTube video player"
+                                aria-label="15 minute full body pilates workout YouTube video"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/Sw6sy8NZCSY"
                                 title="YouTube video player"
+                                aria-label="Everyday fundamentals for a healthy body YouTube video"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/K56Z12XNQ5c"
                                 title="YouTube video player"
+                                aria-label="30 minute full body workout at home YouTube video"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                     </div>
@@ -177,15 +182,19 @@
                     </p>
                     <div id="mental-video-collection" class="center-aligned">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/aPN89GOsDaI?start=7" title="YouTube video player"
+                                aria-label="5 minute pilates streching routine YouTube video"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/g_tea8ZNk5A?start=7" title="YouTube video player"
+                                aria-label="15 minute full body stretch - daily routine YouTube video"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                     </div>
                 </div>
                 <div id="mindful-bg-2" class="mindful-bg"></div>
-                <img id="mindful-img-2" src="assets/images/mindfulness-mental-image.jpg" alt="Woman sitting on floor relaxing with legs crossed, lights dimmed and laptop open">
+                <img id="mindful-img-2" src="assets/images/mindfulness-mental-image.jpg"
+                     alt="Woman sitting on floor relaxing with legs crossed, lights dimmed and laptop open"
+                     aria-label="Image of a woman sitting on floor relaxing with legs crossed, lights dimmed and laptop open">
             </section>
         </div>
 
@@ -207,13 +216,16 @@
                 <div class="box">
                     <h3>Headspace</h3>
                     <div>
-                        <img class="app-icon" src="assets/images/playstore-headspace-qr-code.png" alt="Headspace Play Store QR code">
-                        <img class="app-icon" src="assets/images/app-store-headspace-qr-code.png" alt="Headspace App Store QR Code">
+                        <img class="app-icon" src="assets/images/playstore-headspace-qr-code.png"
+                             alt="Headspace app QR code (for Play Store)" aria-label="QR code for Headspace app on Play Store">
+                        <img class="app-icon" src="assets/images/app-store-headspace-qr-code.png"
+                             alt="Headspace QR Code (for App Store)" aria-label="QR code for Headspace app on the App Store">
                     </div>
                 </div>
                 <div class="box">
                     <h3>Pilates Exercises - Pilates at Home</h3>
-                    <img class="app-icon" src="assets/images/playstore-pilates-exercises-qr-code.png" alt="Pilates Exercises Play Store QR code">
+                    <img class="app-icon" src="assets/images/playstore-pilates-exercises-qr-code.png"
+                         alt="Pilates Exercises app QR code (for Play Store)" aria-label="QR code for Pilates Exercises app on Play Store">
                     <p>(Not available on iOS)</p>
                 </div>
             </div>
@@ -223,22 +235,24 @@
             <section class="column">
                 <h4 id="form-section-header">Stay Connected</h4>
                 <div class="row">
-                    <img id="footer-logo" class="logo vertical-center" src="assets/images/logo.png" alt="Site logo">
+                    <img id="footer-logo" class="logo vertical-center" src="assets/images/logo.png" alt="Site logo" aria-label="Site logo">
                     <form method="POST" action="confirmation.html" class="vertical-center">
                         <label for="email">Subscribe for more app and YouTube channel recommendations</label>
                         <hr class="form-separator">
                         <input type="email" id="email" name="email-address" placeholder="Enter your email address" required>
-                        <button type="submit">Subscribe</button>
+                        <button type="submit" aria-label="Subscribe" role="button">Subscribe</button>
                     </form>
                 </div>
             </section>
             <section class="column center-aligned">
-                <h4>License</h4>
+                <h4>Licence</h4>
                 <span>
-                    <img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+                    <img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+                         aria-label="Creative Commons Licence image">
                     <br>
                     This work is licensed under a
-                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" class="footer-link" target="_blank">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" class="footer-link" target="_blank"
+                       aria-label="Link to Create Commons Licnece">
                         <strong>Creative Commons Attribution-ShareAlike 4.0 International License</strong>
                     </a>
                     .
@@ -251,16 +265,16 @@
                 <h4>Navigation</h4>
                 <ul id="footer-nav-list">
                     <li class="footer-nav-list-item">
-                        <a href="index.html">Home</a>
+                        <a href="index.html" role="button" aria-label="Navigate to home page button">Home</a>
                     </li>
-                    <li class="footer-nav-list-item">
+                    <li class="footer-nav-list-item" role="button" aria-label="Navigate to body section button">
                         <a href="#mindful-body">Body</a>
                     </li>
                     <li class="footer-nav-list-item">
-                        <a href="#mindful-mental">Mental Health</a>
+                        <a href="#mindful-mental" role="button" aria-label="Navigate to mental health section button">Mental Health</a>
                     </li>
                     <li class="footer-nav-list-item">
-                        <a href="#purpose">Purpose</a>
+                        <a href="#purpose" role="button" aria-label="Navigate to purpose section button">Purpose</a>
                     </li>
                 </ul>
             </section>
