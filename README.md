@@ -101,4 +101,29 @@ Each feature listed below was chosen to provide users with a clear, logical path
 
 ## Deployment
 
+The site was deployed to GitHub pages using the steps listed below: 
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the 'main' branch
+    ![Deployment step 1 image](documentation/screenshots/deployment-step-1.jpg)
+* Once the 'main' branch has been selected, the page will be automatically refreshed and indicate the state of deploymeny (which should eventually show as successful)
+    ![Deployment step 2 image](documentation/screenshots/deployment-step-2.jpg)
+    ![Deployment final step image](documentation/screenshots/deployment-final.jpg)
+
+The live link can be found here - https://debzdk.github.io/pilates-your-guide-to-flexible-fun
+
+### How can someone plagiarise my work?
+
+Since my work is in a publicly-accesible repository, it can be plagiarised in 3 different ways:
+
+1. Cloning the repository
+
+    <code>git clone https://github.com/DebzDK/pilates-your-guide-to-flexible-fun.git</code>
+
+1. Forking the repository
+
+    ![Fork repo image](documentation/screenshots/fork-it.jpg)
+
+1. Using Gitpod to create a new workspace for the repository via https://gitpod.io/#https://github.com/DebzDK/pilates-your-guide-to-flexible-fun
+
+
 ## Credits
