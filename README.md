@@ -127,3 +127,21 @@ Since my work is in a publicly-accesible repository, it can be plagiarised in 3 
 
 
 ## Credits
+
+### Content
+
+The introductory content of the webpage, located under the landing page image, is based on information sourced from the [NHS](https://www.nhs.uk/live-well/exercise/guide-to-pilates/) and [Wikipedia](https://en.wikipedia.org/wiki/Pilates).
+
+All other content in this webpage is written in my own words and of my own opinion.
+
+### Media
+
+Purpose | Credit | Source
+------------ | ------------- | -------------
+Logo | [Freepik](https://www.flaticon.com/authors/freepik) | [Flat icon](https://www.flaticon.com/free-icon/pilates-ball_674720)
+Landing page image | [Elina Fairytale](https://www.pexels.com/@elly-fairytale?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) | [Pexels](https://www.pexels.com/photo/woman-in-blue-sports-bra-and-white-leggings-doing-yoga-3822220/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+Body section image 1 (portrait/large screens) | [KoolShooters](https://www.pexels.com/@kool-shooters?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) | [Pexels](https://www.pexels.com/photo/healthy-people-woman-relaxation-6246693/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+Body section image 2 (landscape/smaller screens) | [KoolShooters](https://www.pexels.com/@kool-shooters?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) | [Pexels](https://www.pexels.com/photo/healthy-people-woman-relaxation-6246693/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+Mental health section image 1 (portrait/larger screens) | [KoolShooters](https://www.pexels.com/@kool-shooters?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) | [Pexels](https://www.pexels.com/photo/healthy-sea-beach-vacation-6246589/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+Mental health section image 2 (landscape/smaller screens) | [KoolShooters](https://www.pexels.com/@kool-shooters?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) | [Pexels](https://www.pexels.com/photo/woman-in-brown-tank-top-sitting-on-floor-6246203/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+Creative Commons licence image | [Creative Commons](https://creativecommons.org/) | [Creative Commons](https://creativecommons.org/choose/results-one?license_code=by-sa&amp;jurisdiction=&amp;version=4.0&amp;lang=en)
