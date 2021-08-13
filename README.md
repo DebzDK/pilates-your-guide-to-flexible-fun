@@ -73,6 +73,7 @@ Each feature listed below was chosen to provide users with a clear, logical path
 
     ![Header image](documentation/screenshots/wave-accessibility-evaluation-tool-report-image-1.jpg)
     ![Header image](documentation/screenshots/wave-accessibility-evaluation-tool-report-image-2.jpg)
+    ![Header image](documentation/screenshots/wave-accessibility-evaluation-tool-report-after-fixes-image.jpg)
 
     * Manual foreground and background colour testing
         * Navigation bar
