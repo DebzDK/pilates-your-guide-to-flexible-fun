@@ -20,11 +20,12 @@ Each feature listed below was chosen to provide users with a clear, logical path
 
 * Landing page image
     * A photograph with text overlay is displayed to set the tone/aesthetic for the page.
+    
     ![Header image](documentation/screenshots/header-image-with-overlay.jpg)
-
 
 * Intro
     * The intro will answer 3 FAQs people typically have about pilates and give a brief overview of its background and benefits, allowing the user to get a high level idea of what pilates is about and what lies ahead if they continuing going through the site content.
+
     ![Header image](documentation/screenshots/intro.jpg)
 
 * Mindfulness - Body section
@@ -66,35 +67,27 @@ Each feature listed below was chosen to provide users with a clear, logical path
 * CSS
     * 1 error was found and fixed (see commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/13cf30d710514d969eed371f093967e1288a7826)) after passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun&profile=css3svg&usermedium=all&warning=1&vextwarning=).
     * There is 1 warning regarding use of a vendor extension. The CSS referred to in this warning is necessary for compatibility in IE.
-/
+
 * Accessibility
     * 1 error and 9 alerts were found and fixed after running the [WAVE Accessibility Evaluation tool](https://wave.webaim.org/report#/https://debzdk.github.io/pilates-your-guide-to-flexible-fun).
     * Manual foreground and background colour testing
         * Navigation bar
-            * Text
-            /
+            * Text\
             Contrast Ratio: <b>[13.88:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=F5F5F5)</b>
-            * Menu item hover
-            /
+            * Menu item hover\
             Contrast Ratio: <b>[10.52:1](https://webaim.org/resources/contrastchecker/?fcolor=F5F5F5&bcolor=61214C)</b>
-            * Dropdown menu item
-            /
+            * Dropdown menu item\
             Contrast Ratio: <b>[7.82:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=BABABF)</b>
-            * Dropdown menu item hover
-            /
+            * Dropdown menu item hover\
             Contrast Ratio: <b>[11.41:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=DDDDDD)</b>
-        * Landing page image overlay
-        /
+        * Landing page image overlay\
         Contrast Ratio: <b>[14.82:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=F5FFFA)</b>
-        * Body
-        /
+        * Body\
         Contrast Ratio: <b>[7.82:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=BABABF)</b>
         * Footer
-            * Text
-            /
+            * Text\
             Contrast Ratio: <b>[14.82:1](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=61214C)</b>
-            * Links
-            /
+            * Links\
             Contrast Ratio: <b>[11.47:1](https://webaim.org/resources/contrastchecker/?fcolor=F29188&bcolor=61214C)</b>
 
 ### Fixed bugs
