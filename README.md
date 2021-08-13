@@ -53,3 +53,17 @@ Each feature listed below was chosen to provide users with a clear, logical path
         * a list of the navigation links within the page
 
     ![Header image](documentation/screenshots/footer.jpg)
+
+## Testing
+### Validator testing
+* HTML
+* CSS
+* Accessibility
+
+### Fixed bugs
+
+### Unfixed bugs
+
+## Deployment
+
+## Credits
