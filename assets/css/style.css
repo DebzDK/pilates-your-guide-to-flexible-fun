@@ -386,6 +386,19 @@ form {
     max-width: 240px;
 }
 
+::placeholder {
+    color: #262626;
+}
+:-ms-input-placeholder {
+    color: #262626;
+}
+::-moz-placeholder {
+    color: #262626;
+}
+::-webkit-input-placeholder {
+    color: #262626;
+}
+
 button[type=submit] {
     padding: 5px;
     border-radius: 5px;
