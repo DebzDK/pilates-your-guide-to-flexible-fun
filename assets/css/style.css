@@ -289,6 +289,11 @@ section p {
     background-color: #f29188;
 }
 
+#mindful-img-1b,
+#mindful-img-2b {
+    display: none;
+}
+
 #mindful-mental {
     position: relative;
     display: flex;
@@ -497,12 +502,14 @@ input {
         padding: 20px;
     }
 
-    #mindful-img-1 {
-        content:url(../images/mindfulness-body-2-image.jpg);
+    #mindful-img-1a,
+    #mindful-img-2a {
+        display: none;
     }
 
-    #mindful-img-2 {
-        content:url(../images/mindfulness-mental-2-image.jpg);
+    #mindful-img-1b,
+    #mindful-img-2b {
+        display: block;
     }
 
     #mindful-body {
