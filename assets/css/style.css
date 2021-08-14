@@ -334,6 +334,10 @@ iframe {
     display: flex;
 }
 
+#headspace-qr-code {
+    margin: auto;
+}
+
 .box {
     display: flex;
     flex-direction: column;
