@@ -141,7 +141,6 @@ ul {
     height: inherit;
     display: none;
     flex-direction: column;
-    padding-right: 20px;
     justify-content: center;
 }
 
