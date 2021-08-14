@@ -488,7 +488,7 @@ input {
     }
 
     #mindfulness-content section img {
-        height: 50%;
+        height: auto;
         position: relative;
         padding: 20px;
     }
