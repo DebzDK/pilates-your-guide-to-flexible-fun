@@ -446,7 +446,7 @@ input {
         flex: 0;
     }
 
-    nav h1 {
+    h1 {
         text-align: center;
         flex: 1;
     }
@@ -543,13 +543,13 @@ input {
 }
 
 @media screen and (max-width: 695px) {
-    nav h1, #menu {
+    h1, #menu {
         font-size: 1.5rem;
     }
 }
 
 @media screen and (max-width: 590px) {
-    nav h1 {
+    h1 {
         display: none;
     }
 }
