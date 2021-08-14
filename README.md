@@ -93,7 +93,7 @@ Each feature listed below was chosen to provide users with a clear, logical path
             * Text\
             Contrast Ratio: <b>[14.82:1](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=61214C)</b>
             * Links\
-            Contrast Ratio: <b>[11.47:1](https://webaim.org/resources/contrastchecker/?fcolor=F29188&bcolor=61214C)</b>
+            Contrast Ratio: <b>[5.01:1](https://webaim.org/resources/contrastchecker/?fcolor=F29188&bcolor=61214C)</b>
 
 ### Fixed bugs
 

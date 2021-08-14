@@ -14,20 +14,20 @@
     </head>
 
     <body>
-        <nav>
+        <header>
             <div id="logo-container">
                 <img class="logo" src="assets/images/logo.png" alt="Site logo" aria-label="Site logo">
                 <h1>Pilates - Your Guide to Flexible Fun</h1>
             </div>
 
-            <div id="menu-container">
+            <nav id="menu-container">
                 <ul id="menu">
                     <li>
-                        <a href="index.html" role="button" aria-label="Link to home page">Home</a>
+                        <a href="index.html" role="button" aria-label="Navigate to home page button">Home</a>
                         <hr>
                     </li>
                     <li class="dropdown-menu">
-                        <a href="#" class="dropdown-btn" role="button" aria-label="Navigate to mindfulness section button">Mindfulness</a>
+                        <a href="#mindfulness-heading" class="dropdown-btn" role="button" aria-label="Navigate to mindfulness section button">Mindfulness</a>
                         <hr>
                         <div class="dropdown-content">
                             <a href="#mindful-body" role="button" aria-label="Navigate to body section button">Body</a>
@@ -46,21 +46,20 @@
                             <hr class="bar">
                         </a>
                         <div class="dropdown-content">
-                            <a href="#home" role="button" aria-label="Navigate to home page button">Home</a>
+                            <a href="index.html" role="button" aria-label="Navigate to home page button">Home</a>
                             <a href="#mindful-body" role="button" aria-label="Navigate to body section button">Body</a>
                             <a href="#mindful-mental" role="button" aria-label="Navigate to mental health section button">Mental Health</a>
+                            <a href="#purpose" role="button" aria-label="Navigate to purpose section button">Purpose</a>
                         </div>
                     </li>
                 </ul>
-            </div>
-        </nav>
-
-        <header>
-            <div id="header-image" class="header-dimensions shadow-effect"></div>
-            <div id="header-text" class="header-dimensions">
-                <span id="header-text-bg" class="center-aligned">Creating balance between mind and body</span>
-            </div>
+            </nav>
         </header>
+
+        <div id="header-image" class="header-dimensions shadow-effect"></div>
+        <div id="header-text" class="header-dimensions">
+            <span id="header-text-bg" class="center-aligned">Creating balance between mind and body</span>
+        </div>
 
         <div id="main-content" class="shadow-effect">
             <section class="column">
@@ -106,12 +105,16 @@
 
         <hr class="separator">
 
-        <div id="mindfulness-content">
+        <section id="mindfulness-content">
+            <h2 id="mindfulness-heading" class="center-aligned">Mindfulness</h2>
             <section id="mindful-body">
                 <div id="mindful-bg-1" class="mindful-bg"></div>
-                <img id="mindful-img-1" src="assets/images/mindfulness-body-image.jpg"
+                <img id="mindful-img-1a" src="assets/images/mindfulness-body-image.jpg"
                      alt="Woman doing hip flexor stretch with arms raised"
                      aria-label="Image of woman doing hip flexor stretch with arms raised">
+                <img id="mindful-img-1b" src="assets/images/mindfulness-body-2-image.jpg"
+                     alt="Women doing downward facing dog"
+                     aria-label="Image of women doing downward facing dog">
                 <div>
                     <h2 class="center-aligned">Body</h2>
                     <br>
@@ -192,11 +195,14 @@
                     </div>
                 </div>
                 <div id="mindful-bg-2" class="mindful-bg"></div>
-                <img id="mindful-img-2" src="assets/images/mindfulness-mental-image.jpg"
+                <img id="mindful-img-2a" src="assets/images/mindfulness-mental-image.jpg"
                      alt="Woman sitting on floor relaxing with legs crossed, lights dimmed and laptop open"
                      aria-label="Image of a woman sitting on floor relaxing with legs crossed, lights dimmed and laptop open">
+                <img id="mindful-img-2b" src="assets/images/mindfulness-mental-2-image.jpg"
+                     alt="Close up shot of woman's hands reaching towards a mat"
+                     aria-label="Close up image of a woman's hands reaching towards a mat">
             </section>
-        </div>
+        </section>
 
         <hr class="separator">
 
@@ -215,17 +221,26 @@
             <div id="app-recommendations">
                 <div class="box">
                     <h3>Headspace</h3>
-                    <div>
-                        <img class="app-icon" src="assets/images/playstore-headspace-qr-code.png"
+                    <div id="headspace-qr-code">
+                        <a href="https://play.google.com/store/apps/details?id=com.getsomeheadspace.android"
+                           aria-label="Play Store link for Headspace app" target="_blank">
+                            <img class="app-icon" src="assets/images/playstore-headspace-qr-code.png"
                              alt="Headspace app QR code (for Play Store)" aria-label="QR code for Headspace app on Play Store">
-                        <img class="app-icon" src="assets/images/app-store-headspace-qr-code.png"
-                             alt="Headspace QR Code (for App Store)" aria-label="QR code for Headspace app on the App Store">
+                        </a>
+                        <a href="https://apps.apple.com/gb/app/headspace-meditation-sleep/id493145008"
+                           aria-label="App Store link for Headspace app" target="_blank">
+                            <img class="app-icon" src="assets/images/app-store-headspace-qr-code.png"
+                                alt="Headspace QR Code (for App Store)" aria-label="QR code for Headspace app on the App Store">
+                        </a>
                     </div>
                 </div>
                 <div class="box">
                     <h3>Pilates Exercises - Pilates at Home</h3>
-                    <img class="app-icon" src="assets/images/playstore-pilates-exercises-qr-code.png"
-                         alt="Pilates Exercises app QR code (for Play Store)" aria-label="QR code for Pilates Exercises app on Play Store">
+                    <a href="https://play.google.com/store/apps/details?id=pilatesworkouts.loseweight.dailyyoga"
+                       aria-label="Play Store link for Pilates Exercises - Pilates at Home app" target="_blank">
+                        <img class="app-icon" src="assets/images/playstore-pilates-exercises-qr-code.png"
+                             alt="Pilates Exercises app QR code (for Play Store)" aria-label="QR code for Pilates Exercises app on Play Store">
+                    </a>
                     <p>(Not available on iOS)</p>
                 </div>
             </div>
@@ -240,7 +255,7 @@
                         <label for="email">Subscribe for more app and YouTube channel recommendations</label>
                         <hr class="form-separator">
                         <input type="email" id="email" name="email-address" placeholder="Enter your email address" required>
-                        <button type="submit" aria-label="Subscribe" role="button">Subscribe</button>
+                        <button type="submit" aria-label="Subscribe">Subscribe</button>
                     </form>
                 </div>
             </section>
@@ -267,8 +282,8 @@
                     <li class="footer-nav-list-item">
                         <a href="index.html" role="button" aria-label="Navigate to home page button">Home</a>
                     </li>
-                    <li class="footer-nav-list-item" role="button" aria-label="Navigate to body section button">
-                        <a href="#mindful-body">Body</a>
+                    <li class="footer-nav-list-item">
+                        <a href="#mindful-body" role="button" aria-label="Navigate to body section button">Body</a>
                     </li>
                     <li class="footer-nav-list-item">
                         <a href="#mindful-mental" role="button" aria-label="Navigate to mental health section button">Mental Health</a>
