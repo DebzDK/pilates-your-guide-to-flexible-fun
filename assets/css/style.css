@@ -36,6 +36,7 @@ h1 {
     margin-left: 15px;
     font-size: 2rem;
     font-weight: 500;
+    min-width: 100px;
 }
 
 .logo {
@@ -584,7 +585,7 @@ input {
 }
 
 @media screen and (max-width: 590px) {
-    h1 {
+    #full-title {
         display: none;
     }
 }
