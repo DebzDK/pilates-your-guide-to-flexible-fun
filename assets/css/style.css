@@ -445,7 +445,7 @@ input {
     width: 50%;
     height: 250px;
     box-sizing: border-box;
-    min-width: 200px;
+    min-width: 280px;
     max-width: 480px;
     word-break: break-word;
     margin: auto;
