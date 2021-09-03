@@ -146,3 +146,10 @@ Body section image 2 (landscape/smaller screens) | [KoolShooters](https://www.pe
 Mental health section image 1 (portrait/larger screens) | [KoolShooters](https://www.pexels.com/@kool-shooters?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) | [Pexels](https://www.pexels.com/photo/healthy-sea-beach-vacation-6246589/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 Mental health section image 2 (landscape/smaller screens) | [KoolShooters](https://www.pexels.com/@kool-shooters?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) | [Pexels](https://www.pexels.com/photo/woman-in-brown-tank-top-sitting-on-floor-6246203/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 Creative Commons licence image | [Creative Commons](https://creativecommons.org/) | [Creative Commons](https://creativecommons.org/choose/results-one?license_code=by-sa&amp;jurisdiction=&amp;version=4.0&amp;lang=en)
+'15 Minute Full Body Pilates Workout' video | [YouTube](https://www.youtube.com/watch?v=510FdqCvZ-k&ab_channel=Well%2BGood) | [Well+Good](https://www.youtube.com/channel/UC1bcqvAnNsBoq_RWJNxYvhQ0)
+'Everyday Pilates Fundamentals for a Healthy Body' video | [YouTube](https://www.youtube.com/watch?v=Sw6sy8NZCSY&ab_channel=LottieMurphy) | [Lottie Murphy](https://www.youtube.com/channel/UCPbNqkl2HGn-w3PkymV1GTw)
+'30 Min Full Body Workout' video | [YouTube](https://www.youtube.com/watch?v=K56Z12XNQ5c&t=117s&ab_channel=MoveWithNicole) | [Move With Nicole](https://www.youtube.com/channel/UCEbbyBuyQiHpKiOMj9GFhVw)
+'5-Minute Pilates Stretching Routine' video | [YouTube](https://www.youtube.com/watch?v=aPN89GOsDaI&t=7s&ab_channel=TheBalancedLifePilateswithRobinLong) | [The Balanced Life Pilates With Robin Long](https://www.youtube.com/channel/UCjXa9ErUqMDzaI3plO8a-FA)
+'15 Min. Full Body Stretch' video | [YouTube](https://www.youtube.com/watch?v=g_tea8ZNk5A&t=7s&ab_channel=MadyMorrison) | [Mady Morrison](https://www.youtube.com/channel/UCHJBoCDxaCTRrwCHXEBA-BA)
+QR codes | [QRCode Monkey](https://www.qrcode-monkey.com/) | [QRCode Monkey](https://www.qrcode-monkey.com/)
+
