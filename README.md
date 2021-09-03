@@ -111,7 +111,7 @@ The site was deployed to GitHub pages using the steps listed below:
 
 The live link can be found here - https://debzdk.github.io/pilates-your-guide-to-flexible-fun
 
-### How can someone plagiarise my work?
+### Local deployment
 
 Since my work is in a publicly-accesible repository, it can be plagiarised in 3 different ways:
 
