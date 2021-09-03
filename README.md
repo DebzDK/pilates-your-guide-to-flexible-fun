@@ -56,6 +56,7 @@ Each feature listed below was chosen to provide users with a clear, logical path
     ![Footer image](documentation/screenshots/footer.jpg)
 
 ## Testing
+
 ### Validator testing
 * HTML
     * There were 12 HTML errors found, as shown below, and fixed after passing through the official [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun%2F).
