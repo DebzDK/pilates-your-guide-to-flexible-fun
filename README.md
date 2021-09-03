@@ -16,6 +16,7 @@ Each feature listed below was chosen to provide users with a clear, logical path
 
     ![Full-length site navigation bar image](documentation/screenshots/nav.jpg)
     ![Smaller site navigation bar image](documentation/screenshots/nav-smaller.jpg)
+    ![Smaller site navigation bar image 2](documentation/screenshots/nav-smaller-2.jpg)
     ![Smallest site navigation bar image](documentation/screenshots/nav-smallest.jpg)
 
 * Landing page image
