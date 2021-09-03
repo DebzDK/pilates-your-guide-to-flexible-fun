@@ -16,14 +16,16 @@
     <body>
         <header id="top">
             <div id="logo-container">
-                <img class="logo" src="assets/images/logo.png" alt="Site logo" aria-label="Site logo">
-                <h1>Pilates - Your Guide to Flexible Fun</h1>
+                <a id="header-site-link" href="#top">
+                    <img class="logo" src="assets/images/logo.png" alt="Site logo" aria-label="Site logo">
+                    <h1>Pilates <span id="full-title">- Your Guide to Flexible Fun</span></h1>
+                </a>
             </div>
 
             <nav id="menu-container">
                 <ul id="menu">
                     <li>
-                        <a href="#top" role="button" aria-label="Navigate to home page button">Home</a>
+                        <a href="#top" role="button" aria-label="Navigate to home button">Home</a>
                         <hr>
                     </li>
                     <li class="dropdown-menu">
@@ -46,7 +48,7 @@
                             <hr class="bar">
                         </a>
                         <div class="dropdown-content">
-                            <a href="#top" role="button" aria-label="Navigate to home page button">Home</a>
+                            <a href="#top" role="button" aria-label="Navigate to home button">Home</a>
                             <a href="#mindful-body" role="button" aria-label="Navigate to body section button">Body</a>
                             <a href="#mindful-mental" role="button" aria-label="Navigate to mental health section button">Mental Health</a>
                             <a href="#purpose" role="button" aria-label="Navigate to purpose section button">Purpose</a>
@@ -71,7 +73,9 @@
             <section class="column">
                 <h4 id="form-section-header">Stay Connected</h4>
                 <div class="row">
-                    <img id="footer-logo" class="logo vertical-center" src="assets/images/logo.png" alt="Site logo" aria-label="Site logo">
+                    <a href="#top">
+                        <img id="footer-logo" class="logo vertical-center" src="assets/images/logo.png" alt="Site logo" aria-label="Site logo">
+                    </a>
                     <form action="confirmation.html" class="vertical-center">
                         <label for="email">Subscribe for more app and YouTube channel recommendations</label>
                         <hr class="form-separator">
@@ -83,12 +87,12 @@
             <section class="column center-aligned">
                 <h4>Licence</h4>
                 <span>
-                    <img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+                    <img alt="Creative Commons Licence" src="assets/images/creative-commons.png"
                          aria-label="Creative Commons Licence image">
                     <br>
                     This work is licensed under a
                     <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" class="footer-link" target="_blank"
-                       aria-label="Link to Create Commons Licnece">
+                       aria-label="Link to Creative Commons Licence">
                         <strong>Creative Commons Attribution-ShareAlike 4.0 International License</strong>
                     </a>
                     .
@@ -101,7 +105,7 @@
                 <h4>Navigation</h4>
                 <ul id="footer-nav-list">
                     <li class="footer-nav-list-item">
-                        <a href="#top" role="button" aria-label="Navigate to home page button">Home</a>
+                        <a href="#top" role="button" aria-label="Navigate to home button">Home</a>
                     </li>
                     <li class="footer-nav-list-item">
                         <a href="#mindful-body" role="button" aria-label="Navigate to body section button">Body</a>
