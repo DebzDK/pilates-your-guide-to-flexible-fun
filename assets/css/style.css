@@ -30,9 +30,14 @@ header {
     display: flex;
 }
 
+#header-site-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
 h1 {
-    display: inline;
-    vertical-align: text-bottom;
     margin-left: 15px;
     font-size: 2rem;
     font-weight: 500;
@@ -477,11 +482,6 @@ input {
 
     #menu-container {
         flex: 0;
-    }
-
-    h1 {
-        text-align: center;
-        flex: 1;
     }
 
     #burger-menu .dropdown-content {
