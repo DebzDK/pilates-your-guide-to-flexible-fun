@@ -435,6 +435,10 @@ input {
     background-color: #dddddd;
 }
 
+#thank-you {
+    height: 100vh;
+}
+
 @media screen and (max-width: 1200px) {    
     #body-video-collection iframe:last-child {
         width: auto;
