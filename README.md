@@ -73,6 +73,7 @@ All other user stories follow the same kind of format except for where the user 
 Each feature listed below was chosen to provide users with a clear, logical path through the site content in order for this project to achieve its goal.
 
 ### Existing features
+
 * Navigation bar
   * Positioned at the top of the page, the full-length responsive navigation bar includes the site name, logo, and links to the home page, 'Mindfulness' sub-sections - 'Body' and 'Mental Health' and 'Purpose' section.
   * The 'Mindfulness' sub-sections become accessible from a dropdown menu when 'Mindfulness' is hovered in order to economise on space.
@@ -120,12 +121,23 @@ Each feature listed below was chosen to provide users with a clear, logical path
 
     ![Footer image](documentation/screenshots/website/footer.jpg)
 
-## Technologies used
+## Languages and technologies used
 
+* Languages
+    * [HTML](https://en.wikipedia.org/wiki/HTML)
+    * [CSS](https://en.wikipedia.org/wiki/CSS)
+        * [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout)
+* Technologies
+    * [Git](https://git-scm.com/)
+    * [GitHub](https://github.com/)
+    * [Gitpod](https://gitpod.io/)
+        * The terminal was used to create branchs to work on before merging into the main branch. These branches has been preserved for the sake of the assessment, otherwise they would have been deleted after use.
+        *Note: initial merges were missing the '--no-ff' flag so commit history was lost*
 
 ## Testing
 
 ### Validator testing
+
 * HTML
     * There were 12 HTML errors found, as shown below, and fixed after passing through the official [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun%2F).
     
