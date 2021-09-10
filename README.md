@@ -134,6 +134,8 @@ Each feature listed below was chosen to provide users with a clear, logical path
         * The terminal was used to create branchs to work on before merging into the main branch. These branches has been preserved for the sake of the assessment, otherwise they would have been deleted after use.
         *Note: initial merges were missing the '--no-ff' flag so commit history was lost*
 
+        ![Screenshot of all GitHub branches for project](documentation/screenshots/evidence/branches.jpg)
+
 ## Testing
 
 ### Validator testing
@@ -246,6 +248,21 @@ The introductory content of the webpage, located under the landing page image, i
 All other content in this webpage is written in my own words and of my own opinion.
 
 ### Media
+
+All images were compressed using [Compress JPEG](https://compressjpeg.com/).
+
+* Header image
+
+    ![Screenshot of header image compression](documentation/screenshots/evidence/image-compression-1.png)
+
+* Mindfulness seciton images
+
+    ![Screenshot of mindfulness body image 1 compression](documentation/screenshots/evidence/image-compression-2.png)
+    ![Screenshot of mindfulness body image 2 compression](documentation/screenshots/evidence/image-compression-3.png)
+    ![Screenshot of mindfulness mental health image 1 compression](documentation/screenshots/evidence/image-compression-4.png)
+    ![Screenshot of mindfulness mental health image 1 compression](documentation/screenshots/evidence/image-compression-5.png)
+
+<br>
 
 Purpose | Credit | Source
 ------------ | ------------- | -------------
