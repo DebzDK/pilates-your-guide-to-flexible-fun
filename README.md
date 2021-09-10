@@ -167,12 +167,30 @@ Each feature listed below was chosen to provide users with a clear, logical path
 
         ![Screenshot of lighthouse mobile result](documentation/screenshots/testing/lighthouse-mobile.jpg)
         * Incognito
-        
+
         ![Screenshot of lighthouse mobile incognito result](documentation/screenshots/testing/lighthouse-mobile-incognito.jpg)
 
 ### Fixed bugs
+The site had issues with scaling the mindfulness section images in Firefox and on iPhone devices.
+<br>
+The iPhone issue was discovered after sending a link to the site to my family members to get help testing responsiveness on different devices, in addition to using Chrome Dev tools to do the same test.
+<br>
+<br>
+Before fix:
+
+![Screenshot 1 of image scaling bug](documentation/screenshots/testing/image-scaling-bug-1.jpg)
+![Screenshot 2 of image scaling bug](documentation/screenshots/testing/image-scaling-bug-2.jpg)
+
+After fix (see commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/07fa2a3404067d527fff23a5e0052c6fd749121d#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae), re-tested using the [LambdaTest cross-browser testing tool](https://www.lambdatest.com/)):
+
+![Screenshot of fixed image scaling issue](documentation/screenshots/testing/fixed-image-scaling-bug.jpg)
 
 ### Unfixed bugs
+On iPads, the mindfulness body section image is too large and pushs the text out of view.
+<br>
+The fix would be to make the images display landscape when the iPad is portrait and portrait when the iPad is landscape.
+
+![Screenshot of iPad bug](documentation/screenshots/testing/ipad-bug.jpg)
 
 ## Deployment
 
@@ -199,7 +217,6 @@ Since my work is in a publicly-accesible repository, it can be plagiarised in 3 
     ![Fork repo image](documentation/screenshots/evidence/fork-it.jpg)
 
 1. Using Gitpod to create a new workspace for the repository via https://gitpod.io/#https://github.com/DebzDK/pilates-your-guide-to-flexible-fun
-
 
 ## Credits
 
