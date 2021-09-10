@@ -4,6 +4,66 @@
 
 !['Pilates - Your Guide to Flexible Fun' mockup image](documentation/screenshots/website/mock-up-screenshot.jpg)
 
+## Design
+
+### Wireframes
+
+To kickstart the project design process, hand-drawn wireframes were created in order to visualise different potential project ideas. These can be found [here](documentation/wireframes/hand-drawn-wireframes.pdf).
+<br>
+After talking through these ideas during the Mentor Project Planning session, the wireframes for the chosen project idea were re-created digitally using Balsamiq.
+
+![Wireframe for home section of page - desktop version](documentation/wireframes/home-desktop.png)
+![Wireframe for home section of page - mobile version](documentation/wireframes/home-mobile.png)
+![Wireframe for mindfulness body section of page - desktop version](documentation/wireframes/mindfulness-body-desktop.png)
+![Wireframe for mindfulness mental health section of page - desktop version](documentation/wireframes/mindfulness-mental-health-desktop.png)
+![Wireframe for mindfulness sections of page - mobile version](documentation/wireframes/mindfulness-mobile.png)
+![Wireframe for purpose section of page - desktop version](documentation/wireframes/purpose-desktop.png)
+![Wireframe for purpose section of page - mobile version](documentation/wireframes/purpose-mobile.png)
+
+### Typography
+
+Google Fonts was used to find and select fonts for the site's typography.
+
+![Google Fonts selection screenshot](documentation/screenshots/evidence/google-fonts-selection.png)
+
+### Colours
+
+The site's colour scheme was chosen using the Adobe Color scheme extraction tool and an [image](https://www.google.com/search?q=sunset+pilates&tbm=isch&ved=2ahUKEwjzkcyagfXyAhUT8xoKHXw4CEcQ2-cCegQIABAA&oq=sunset+pilates&gs_lcp=CgNpbWcQAzIFCAAQgAQyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBg6CAgAEIAEELEDOgsIABCABBCxAxCDAToGCAAQCBAeOggIABAIEAoQHjoECAAQHlCCPljaR2DQSWgAcAB4AIABYIgB-gOSAQE3mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=VqA7YfOOK5Pma_zwoLgE&bih=762&biw=1535&rlz=1C1CHBF_enGB848GB848#imgrc=uMSFgODXB9XbRM) found from a Google search for 'sunset pilates'.
+<br>
+All colours except #F2DAC4 were used.
+
+![Adobe Color scheme extraction tool screenshot](documentation/screenshots/evidence/colour-scheme.jpg)
+
+### Planning and Execution
+
+Agile practices were used to carry out this project and documented in Trello ([planning/design board](https://trello.com/b/XHKOeDeS/project-planning-design) and [dev board](https://trello.com/b/uPJVG04m/project-development)) and [Github Projects](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/projects/1).
+<br>
+*Please note that more task details + resources are available in the Trello boards than in the Github Project page.*
+
+Each board is divided into 3 swimlanes/columns:
+* 'To Do' - used to list tasks that are yet to be done
+* 'In Progress' - used to list tasks that are currently being carried out
+* 'Done' - used to list completed tasks
+
+After defining the status divisions for a task, the indicators for time constraints were defined using 't-shirt sizes'.
+
+![Card labels screenshot from Trello](documentation/screenshots/evidence/task-sizes-and-areas.png)
+
+‘T-shirt sizes’ were defined to provide an estimate for the perceived difficulty of a task and extra labels to further separate tasks by what part of the process they’re related to, i.e. Requirements, Design, Development, and Testing.
+The project area labels have been defined as follows:
+* ‘Requirements’ - refers to things that are directly taken from or related to the project’s assessment criteria rather than actions derived from a requirements capture process
+* 'Design' - refers to steps taken towards the appearance of the website
+* 'Development' - refers to steps taken towards the implementation of the website
+* 'Testing' - refers to steps taken towards validating the HTML and CSS as well as testing the responsiveness of the website
+
+At this point, user stories were created in order to produce tasks while thinking from a user's perspective.
+
+![Screenshot of first user story made in Trello](documentation/screenshots/evidence/first-user-story.jpg)
+
+All other user stories follow the same kind of format except for where the user story is self-explanatory of the task.
+<br>
+*Please note that user stories for 'Testing' were not made at the time that tests were carried out as they should have been but have been added after the fact, using the time of relevant commits to provide a rough duration estimate.* 
+
 ## Features
 
 Each feature listed below was chosen to provide users with a clear, logical path through the site content in order for this project to achieve its goal.
