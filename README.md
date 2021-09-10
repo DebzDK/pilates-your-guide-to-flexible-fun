@@ -182,6 +182,8 @@ Each feature listed below was chosen to provide users with a clear, logical path
     * Desktop
 
     ![Screenshot of lighthouse desktop result](documentation/screenshots/testing/lighthouse-desktop.jpg)
+    ![Screenshot of lighthouse desktop result performance issues](documentation/screenshots/testing/lighthouse-desktop-performance-issues.jpg)
+    ![Screenshot of lighthouse desktop result best practice issues](documentation/screenshots/testing/lighthouse-desktop-best-practice-issues.jpg)
 
     * Mobile
         * Normal
