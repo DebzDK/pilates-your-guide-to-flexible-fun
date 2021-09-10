@@ -157,6 +157,19 @@ Each feature listed below was chosen to provide users with a clear, logical path
             * Links\
             Contrast Ratio: <b>[5.01:1](https://webaim.org/resources/contrastchecker/?fcolor=F29188&bcolor=61214C)</b>
 
+* Lighthouse
+    * Desktop
+
+    ![Screenshot of lighthouse desktop result](documentation/screenshots/testing/lighthouse-desktop.jpg)
+
+    * Mobile
+        * Normal
+
+        ![Screenshot of lighthouse mobile result](documentation/screenshots/testing/lighthouse-mobile.jpg)
+        * Incognito
+        
+        ![Screenshot of lighthouse mobile incognito result](documentation/screenshots/testing/lighthouse-mobile-incognito.jpg)
+
 ### Fixed bugs
 
 ### Unfixed bugs
