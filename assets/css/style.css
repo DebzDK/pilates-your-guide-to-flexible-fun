@@ -30,12 +30,18 @@ header {
     display: flex;
 }
 
+#header-site-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
 h1 {
-    display: inline;
-    vertical-align: text-bottom;
     margin-left: 15px;
     font-size: 2rem;
     font-weight: 500;
+    min-width: 100px;
 }
 
 .logo {
@@ -435,6 +441,30 @@ input {
     background-color: #dddddd;
 }
 
+#thank-you {
+    height: 100vh;
+    display: flex;
+    padding: 20px;
+}
+
+#thank-you-message {
+    width: 50%;
+    height: 250px;
+    box-sizing: border-box;
+    min-width: 280px;
+    max-width: 480px;
+    word-break: normal;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px #26262655;
+    border: 1px solid #00000066;
+    background-color: rgba(255,255,255, .5);
+}
+
 @media screen and (max-width: 1200px) {    
     #body-video-collection iframe:last-child {
         width: auto;
@@ -452,11 +482,6 @@ input {
 
     #menu-container {
         flex: 0;
-    }
-
-    h1 {
-        text-align: center;
-        flex: 1;
     }
 
     #burger-menu .dropdown-content {
@@ -560,7 +585,7 @@ input {
 }
 
 @media screen and (max-width: 590px) {
-    h1 {
+    #full-title {
         display: none;
     }
 }
