@@ -23,6 +23,10 @@ After talking through these ideas during the Mentor Project Planning session, th
 ### Typography
 
 Google Fonts was used to find and select fonts for the site's typography.
+<br>
+
+'[PT-Serif](https://fonts.google.com/specimen/PT+Serif)' is used for headings and the navigation bar and footer text.
+'[Raleway](https://fonts.google.com/specimen/Raleway)' is used for all other text.
 
 ![Google Fonts selection screenshot](documentation/screenshots/evidence/google-fonts-selection.png)
 
@@ -115,6 +119,9 @@ Each feature listed below was chosen to provide users with a clear, logical path
         * a list of the navigation links within the page
 
     ![Footer image](documentation/screenshots/website/footer.jpg)
+
+## Technologies used
+
 
 ## Testing
 
