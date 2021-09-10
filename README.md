@@ -34,7 +34,7 @@ All colours except #F2DAC4 were used.
 
 ![Adobe Color scheme extraction tool screenshot](documentation/screenshots/evidence/colour-scheme.jpg)
 
-### Planning and Execution
+### Planning and execution
 
 Agile practices were used to carry out this project and documented in Trello ([planning/design board](https://trello.com/b/XHKOeDeS/project-planning-design) and [dev board](https://trello.com/b/uPJVG04m/project-development)) and [Github Projects](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/projects/1).
 <br>
