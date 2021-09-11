@@ -551,10 +551,12 @@ input {
 
     #mindful-body {
         flex-direction: column;
+        align-items: center;
     }
 
     #mindful-mental {
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     footer, .row {
