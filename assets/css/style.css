@@ -116,7 +116,7 @@ h1 {
 }
 
 .dropdown-menu {
-    position: relative; /* Set to relative so that dropdown menu positions relative to sibiling content */
+    position: relative; /* Set to relative so that dropdown menu positions relative to sibling content */
 }
 
 .dropdown-content {
