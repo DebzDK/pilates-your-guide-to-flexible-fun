@@ -121,6 +121,18 @@ Each feature listed below was chosen to provide users with a clear, logical path
 
     ![Footer image](documentation/screenshots/website/footer.jpg)
 
+
+
+
+### Future features
+
+* Mailing list
+
+    The ability to generate a mailing list from subscription form submissions and automatically send emails would have been a nice addition to the site. Users could then actually receive more information/recommendations on pilates exercises and apps.
+    <br>
+    [MailChimp](https://mailchimp.com/features/custom-forms/) would have been a decent candidate for this functionality because it removes the need to build a backend. This would've required the use of a language other than HTML and CSS and is therefore beyond the scope of this project.
+
+
 ## Languages and technologies used
 
 * Languages
