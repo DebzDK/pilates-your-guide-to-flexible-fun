@@ -523,6 +523,10 @@ input {
     #mindfulness-content div > p {
         text-align: center;
     }
+    
+    .column:not(:last-child) {
+        padding-bottom: 30px;
+    }
 
     #mindfulness-content section img {
         height: auto;
