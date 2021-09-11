@@ -1,21 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=PTSerif&family=Raleway&display=swap');
 
+/*
+    The below CSS follows a top-down format so that styles are tackled in order of appearance in the webpage.
+    All font-sizes are set in rem for responsiveness and for accessibility.
+*/
+
+/*#region General */
+/* Clears/resets margin, padding, and borders from all HTML elements to eliminate browser inconsistencies*/
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/* Makes scroll smooth instead of abrupt when clicking internal links/anchors*/
 html {
     scroll-behavior: smooth;
 }
 
+/* Body background color, font colour, and font family are set for consistency */
 body {
     background-color: #BABABF;
     color: #262626;
     font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Font family for all other text in the webpage is set for consistency */
 header,
 h2,
 h3,
@@ -23,25 +33,38 @@ footer {
     font-family: 'PT Serif', 'Times New Roman', Times, serif;
 }
 
+/* Since all uses of <ul> are for navigation purposes, the list style is set to none */
+ul {
+    list-style-type: none;
+}
+
+/* Removes default underline that comes with <a> elements EXCEPT for footer links */
+a:not(.footer-link) {
+    text-decoration: none;
+}
+/*#endregion */
+
 /*#region Headings, navigation menu, logo */
 header {
-    background-color: whitesmoke;
-    height: 90px;
-    display: flex;
+    background-color: whitesmoke; /* Sets background colour to be something different and brighter than the body's */
+    height: 90px; /* Hard-set size to ensure all content is contained, vertically-spaced, and allows for later fixed positioning of dropdown menu */
+    display: flex; /* Centers elements in <header> */
 }
 
 #header-site-link {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    align-items: center;
+    color: inherit; /* Set to inherit so that the colour defined for body is used */
+}
+
+.centered-content {
+    display: flex; /* Set for responsiveness */
+    align-items: center; /* Vertically centered flexed content */
 }
 
 h1 {
-    margin-left: 15px;
-    font-size: 2rem;
-    font-weight: 500;
-    min-width: 100px;
+    margin-left: 15px; /* Set for fixed spacing between logo and h1 text */
+    font-size: 2rem; /* Set after testing for appropriate size for header text */
+    font-weight: 500; /* Set to go against normal font-weight for <h1> elements */
+    min-width: 100px; /* Set so that text doesn't continue to wrap when on very small screens */
 }
 
 .logo {
@@ -50,62 +73,42 @@ h1 {
 }
 
 #logo-container {
-    display: flex;
-    flex: 2;
-    align-items: center;
-    padding-left: 20px;
+    flex: 2; /* Set to higher value so that logo area takes up more space than the menu area */
+    padding-left: 20px; /* Set for fixed spacing between logo and screen edge */
 }
 
 #menu-container {
     flex: 1;
 }
 
-ul {
-    list-style-type: none;
-}
-
-#menu, #small-screen-menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 1.8rem;
-    vertical-align: text-bottom;
-    height: 100%;
+#menu,
+#small-screen-menu {
+    justify-content: flex-end; /* Set to ensure menu positions against screen edge*/
+    font-size: 1.8rem; /* Set after testing for appropriate size for menu text */
+    height: 100%; /* Set to make menu take up full height of header space */
 }
 
 #menu > li {
-    display: flex;
-    height: 100%;
-    align-items: center;
+    height: 100%; /* Set to make <li> take up full height of menu space  so that on-hover colour change takes up full space */
 }
 
-#menu > li, #small-screen-menu > li {
-    padding-left: 20px;
+#menu > li,
+#small-screen-menu > li {
+    padding-left: 20px; /* Set to space menu items when not displaying burger menu and to pad burger menu symbol from edge of content box */
 }
 
 #menu > li:hover,
 #small-screen-menu > li:hover {
-    background-color: rgba(97, 33, 76, .8);
-}
-
-#menu > li:hover a,
-#small-screen-menu > li:hover a {
-    color: whitesmoke;
-}
-
-#menu > li:hover div a,
-#small-screen-menu > li:hover div a,
-#footer-nav-list a {
-    color: inherit;
+    background-color: rgba(97, 33, 76, .8); /* rgb of purple colour taken from logo, displays when hovering menu items */
 }
 
 #menu > li a,
 #small-screen-menu > li a {
-    text-decoration: none;
-    color: inherit;
-    padding-right: 20px;
+    color: inherit; /* Set to inherit so that body colour is used instead */
+    padding-right: 20px; /* Set to add fixed space between menu item and separator when not displaying burger menu and increases burger menu width when displaying burger menu */
 }
 
+/* CSS equivalent of burger menu symbol */
 #menu hr {
     background-color: black;
     width: .5px;
@@ -113,7 +116,7 @@ ul {
 }
 
 .dropdown-menu {
-    position: relative;
+    position: relative; /* Set to relative so that dropdown menu positions relative to sibiling content */
 }
 
 .dropdown-content {
@@ -130,7 +133,6 @@ ul {
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
-    text-decoration: none;
     display: block;
 }
 
@@ -229,11 +231,6 @@ ul {
 
 .center-aligned {
     text-align: center;
-}
-
-.centered-content {
-    display: flex;
-    align-items: center;
 }
 
 .right-aligned {
@@ -352,16 +349,13 @@ iframe {
     background-color: rgba(255, 255, 255, .3);
 }
 
-.box a {
-    text-decoration: none;
-}
-
 .app-icon {
     width: 150px;
     margin: 0 auto;
 }
 /*#endregion*/
 
+/*#region Footer */
 .separator {
     height: .5px;
     background-color: #26262677;
@@ -387,10 +381,6 @@ footer {
     margin-top: 5px;
 }
 
-#footer-nav-list a {
-    text-decoration: none;
-}
-
 .footer-link, #footer-nav-list a:hover {
     color: #f29188;
 }
@@ -404,7 +394,7 @@ footer {
 }
 
 #form-section-header {
-    font-size: 14.4px;
+    font-size: inherit; /* Set to inherit so that the font size defined for footer is used */
     margin-left: 65px;
 }
 
@@ -445,7 +435,9 @@ input {
     border: 1px solid whitesmoke;
     background-color: #dddddd;
 }
+/*#endregion */
 
+/*#region Confirmation page */
 #thank-you {
     height: 100vh;
     display: flex;
@@ -469,7 +461,9 @@ input {
     border: 1px solid #00000066;
     background-color: rgba(255,255,255, .5);
 }
+/*#endregion */
 
+/*#region Media queries */
 @media screen and (max-width: 1200px) {    
     #body-video-collection iframe:last-child {
         width: auto;
@@ -596,7 +590,8 @@ input {
 }
 
 @media screen and (max-width: 695px) {
-    h1, #menu {
+    h1,
+    #menu {
         font-size: 1.5rem;
     }
 }
@@ -613,3 +608,4 @@ input {
         width: 200px;
     }
 }
+/*#endregion */
