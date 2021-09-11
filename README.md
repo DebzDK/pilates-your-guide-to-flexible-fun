@@ -195,38 +195,46 @@ Each feature listed below was chosen to provide users with a clear, logical path
         * Desktop
             * index.html
 
-            ![Screenshot of initial Lighthouse desktop report for index.html](documentation/screenshots/testing/lighthouse-desktop-report.jpg)
-            ![Screenshot of initial Lighthouse desktop report for index.html performance issues](documentation/screenshots/testing/lighthouse-desktop-performance-issues.jpg)
-            ![Screenshot of initial Lighthouse desktop report for index.html best practice issues](documentation/screenshots/testing/lighthouse-desktop-best-practice-issues.jpg)
+                ![Screenshot of initial Lighthouse desktop report for index.html](documentation/screenshots/testing/lighthouse-desktop-report.jpg)
+                ![Screenshot of initial Lighthouse desktop report for index.html performance issues](documentation/screenshots/testing/lighthouse-desktop-performance-issues.jpg)
+                ![Screenshot of initial Lighthouse desktop report for index.html best practice issues](documentation/screenshots/testing/lighthouse-desktop-best-practice-issues.jpg)
 
-            *Note: The issues logged in the 'Issues' panel of Chrome DevTools are unrelated to the site itself and therefore cannot be fixed*
+                *Note: The issues logged in the 'Issues' panel of Chrome DevTools are unrelated to the site itself and therefore cannot be fixed*
 
-            ![Screenshot of Chrome DevTools console tab and issues panel](documentation/screenshots/testing/dev-tools-issues.jpg)
+                ![Screenshot of Chrome DevTools console tab and issues panel](documentation/screenshots/testing/dev-tools-issues.jpg)
 
             * confirmation.html
 
-            ![Screenshot of initial Lighthouse desktop report for confirmation.html](documentation/screenshots/testing/lighthouse-desktop-confirmation-page-report.jpg)
+                ![Screenshot of initial Lighthouse desktop report for confirmation.html](documentation/screenshots/testing/lighthouse-desktop-confirmation-page-report.jpg)
 
 
         * Mobile
             * index.html
 
-            ![Screenshot of Lighthouse mobile report for index.html](documentation/screenshots/testing/lighthouse-mobile-report.jpg)
+                ![Screenshot of Lighthouse mobile report for index.html](documentation/screenshots/testing/lighthouse-mobile-report.jpg)
 
-            * confirmation.html
+                * confirmation.html
 
-            ![Screenshot of Lighthouse mobile confirma report for confirmation.html](documentation/screenshots/testing/lighthouse-mobile-confirmation-page-report.jpg)
+                ![Screenshot of Lighthouse mobile confirma report for confirmation.html](documentation/screenshots/testing/lighthouse-mobile-confirmation-page-report.jpg)
 
     * Secondary report
         * Desktop
             * index.html report can be found [here](https://htmlpreview.github.io/?https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/blob/main/documentation/reports/secondary-lighthouse-desktop-report.html)
 
-            ![Screenshot of secondary Lighthouse desktop report](documentation/screenshots/testing/lighthouse-desktop-report-2.jpg)
+                ![Screenshot of secondary Lighthouse desktop report for index.html](documentation/screenshots/testing/lighthouse-desktop-report-2.jpg)
+
+            * confirmation.html report can be found [here](https://htmlpreview.github.io/?https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/blob/main/documentation/reports/secondary-lighthouse-desktop-confirmation-page-report.html)
+
+                ![Screenshot of secondary Lighthouse desktop report for confirmation.html](documentation/screenshots/testing/lighthouse-confirmation-page-report-2.jpg)
         
         * Mobile
             * index.html report can be found [here](https://htmlpreview.github.io/?https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/blob/main/documentation/reports/secondary-lighthouse-mobile-report.html)
-            
-            ![Screenshot of secondary Lighthouse mobile report](documentation/screenshots/testing/lighthouse-mobile-report-2.jpg)
+
+                ![Screenshot of secondary Lighthouse mobile report for index.html](documentation/screenshots/testing/lighthouse-mobile-report-2.jpg)
+
+            * confirmation.html report can be found [here](https://htmlpreview.github.io/?https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/blob/main/documentation/reports/secondary-lighthouse-mobile-confirmation-page-report.html)
+
+                ![Screenshot of secondary Lighthouse mobile report for confirmation.html](documentation/screenshots/testing/lighthouse-confirmation-page-report-2.jpg)
 
 ### Fixed bugs
 * Scaling issues with 'Mindfulness' section content images
