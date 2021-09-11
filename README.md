@@ -186,6 +186,10 @@ Each feature listed below was chosen to provide users with a clear, logical path
         ![Screenshot of initial Lighthouse desktop report performance issues](documentation/screenshots/testing/lighthouse-desktop-performance-issues.jpg)
         ![Screenshot of initial Lighthouse desktop report best practice issues](documentation/screenshots/testing/lighthouse-desktop-best-practice-issues.jpg)
 
+        *Note: The issues logged in the 'Issues' panel of Chrome Dev Tools are unrelated to the site itself and therefore cannot be fixed*
+
+        ![Screenshot of Chrome Dev Tools console tab and issues panel](documentation/screenshots/testing/dev-tools-issues.jpg)
+
         * Mobile
 
             ![Screenshot of Lighthouse mobile result](documentation/screenshots/testing/lighthouse-mobile-report.jpg)
