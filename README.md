@@ -179,19 +179,25 @@ Each feature listed below was chosen to provide users with a clear, logical path
             Contrast Ratio: <b>[5.01:1](https://webaim.org/resources/contrastchecker/?fcolor=F29188&bcolor=61214C)</b>
 
 * Lighthouse
-    * Desktop
+    * Initial report
+        * Desktop
 
-    ![Screenshot of lighthouse desktop result](documentation/screenshots/testing/lighthouse-desktop.jpg)
-    ![Screenshot of lighthouse desktop result performance issues](documentation/screenshots/testing/lighthouse-desktop-performance-issues.jpg)
-    ![Screenshot of lighthouse desktop result best practice issues](documentation/screenshots/testing/lighthouse-desktop-best-practice-issues.jpg)
+        ![Screenshot of initial Lighthouse desktop report](documentation/screenshots/testing/lighthouse-desktop-report.jpg)
+        ![Screenshot of initial Lighthouse desktop report performance issues](documentation/screenshots/testing/lighthouse-desktop-performance-issues.jpg)
+        ![Screenshot of initial Lighthouse desktop report best practice issues](documentation/screenshots/testing/lighthouse-desktop-best-practice-issues.jpg)
 
-    * Mobile
-        * Normal
+        * Mobile
 
-        ![Screenshot of lighthouse mobile result](documentation/screenshots/testing/lighthouse-mobile.jpg)
-        * Incognito
+            ![Screenshot of Lighthouse mobile result](documentation/screenshots/testing/lighthouse-mobile-report.jpg)
 
-        ![Screenshot of lighthouse mobile incognito result](documentation/screenshots/testing/lighthouse-mobile-incognito.jpg)
+    * Secondary report
+        * Desktop - (report can be found [here](documentation/reports/secondary-lighthouse-desktop-report.html))
+        
+        ![Screenshot of secondary Lighthouse desktop report](documentation/screenshots/testing/lighthouse-desktop-report-2.jpg)
+        
+        * Mobile - (report can be found [here](documentation/reports/secondary-lighthouse-mobile-report.html))
+        
+        ![Screenshot of secondary Lighthouse mobile report](documentation/screenshots/testing/lighthouse-mobile-report-2.jpg)
 
 ### Fixed bugs
 The site had issues with scaling the mindfulness section images in Firefox and on iPhone devices.
