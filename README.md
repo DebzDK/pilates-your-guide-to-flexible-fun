@@ -240,9 +240,9 @@ Each feature listed below was chosen to provide users with a clear, logical path
 
         ![Screenshot of iPad Pro bug](documentation/screenshots/testing/image-scaling-bug-3.jpg)
 
-        * After fix
+        * After fix (see first change in commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/3d7c445964c9c2d8ff06b38244fc15a46b8fa92c#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae))
 
-        ![Screenshot of iPad Pro bug](documentation/screenshots/testing/image-scaling-bug-fix-3.jpg)
+        ![Screenshot of iPad Pro bug fix](documentation/screenshots/testing/image-scaling-bug-fix-3.jpg)
         
     * 4K 
 
@@ -250,11 +250,11 @@ Each feature listed below was chosen to provide users with a clear, logical path
 
         * Before fix
 
-        ![Screenshot of iPad Pro bug](documentation/screenshots/testing/image-scaling-bug-4.jpg)
+        ![Screenshot of 4K bug](documentation/screenshots/testing/image-scaling-bug-4.jpg)
 
-        * After fix
+        * After fix (see second change in commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/3d7c445964c9c2d8ff06b38244fc15a46b8fa92c#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae))
 
-        ![Screenshot of iPad Pro bug](documentation/screenshots/testing/image-scaling-bug-fix-4.jpg)
+        ![Screenshot of 4K bug fix](documentation/screenshots/testing/image-scaling-bug-fix-4.jpg)
 
         *Note: YouTube video images are distorted due to zoom.*
         
