@@ -514,7 +514,7 @@ input {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px), (orientation: portrait) and (max-width: 1024px) {
     #main-content {
         display: block;
     }
@@ -585,6 +585,12 @@ input {
 
     footer .column {
         padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-height: 1177px) {
+    #mindfulness-content section img {
+        height: 100%;
     }
 }
 

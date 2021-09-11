@@ -198,9 +198,9 @@ Each feature listed below was chosen to provide users with a clear, logical path
         ![Screenshot of initial Lighthouse desktop report performance issues](documentation/screenshots/testing/lighthouse-desktop-performance-issues.jpg)
         ![Screenshot of initial Lighthouse desktop report best practice issues](documentation/screenshots/testing/lighthouse-desktop-best-practice-issues.jpg)
 
-        *Note: The issues logged in the 'Issues' panel of Chrome Dev Tools are unrelated to the site itself and therefore cannot be fixed*
+        *Note: The issues logged in the 'Issues' panel of Chrome DevTools are unrelated to the site itself and therefore cannot be fixed*
 
-        ![Screenshot of Chrome Dev Tools console tab and issues panel](documentation/screenshots/testing/dev-tools-issues.jpg)
+        ![Screenshot of Chrome DevTools console tab and issues panel](documentation/screenshots/testing/dev-tools-issues.jpg)
 
         * Mobile
 
@@ -216,27 +216,48 @@ Each feature listed below was chosen to provide users with a clear, logical path
         ![Screenshot of secondary Lighthouse mobile report](documentation/screenshots/testing/lighthouse-mobile-report-2.jpg)
 
 ### Fixed bugs
-The site had issues with scaling the mindfulness section images in Firefox and on iPhone devices.
-<br>
-The iPhone issue was discovered after sending a link to the site to my family members to get help testing responsiveness on different devices, in addition to using Chrome Dev tools to do the same test.
-<br>
+* Scaling issues with 'Mindfulness' section content images
+    
+    * iPhone and Firefox
 
-* Before fix
+        This issue was discovered on an iPhone after sending a link to the site to my family members to get help testing responsiveness on different devices, in addition to using Chrome DevTools to do the same test.
 
-    ![Screenshot 1 of image scaling bug](documentation/screenshots/testing/image-scaling-bug-1.jpg)
-    ![Screenshot 2 of image scaling bug](documentation/screenshots/testing/image-scaling-bug-2.jpg)
+        * Before fix
 
-* After fix (see commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/07fa2a3404067d527fff23a5e0052c6fd749121d#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae), re-tested using the [LambdaTest cross-browser testing tool](https://www.lambdatest.com/)):
+            ![Screenshot 1 of image scaling bug](documentation/screenshots/testing/image-scaling-bug-1.jpg)
+            ![Screenshot 2 of image scaling bug](documentation/screenshots/testing/image-scaling-bug-2.jpg)
 
-    ![Screenshot of fixed image scaling issue](documentation/screenshots/testing/fixed-image-scaling-bug.jpg)
+        * After fix (see commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/07fa2a3404067d527fff23a5e0052c6fd749121d#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae), re-tested using the [LambdaTest cross-browser testing tool](https://www.lambdatest.com/)):
 
-### Unfixed bugs
-On iPads, the mindfulness body section image is too large and pushs the text out of view.
-<br>
-The fix would be to make the images display landscape when the iPad is portrait and portrait when the iPad is landscape.
+            ![Screenshot of fixed image scaling bug 1](documentation/screenshots/testing/image-scaling-bug-fix-1.jpg)
+            ![Screenshot of fixed image scaling bug 2](documentation/screenshots/testing/image-scaling-bug-fix-2.jpg)
 
-![Screenshot of iPad bug](documentation/screenshots/testing/ipad-bug.jpg)
+    * iPad Pro
 
+        When viewing the site using the Chrome DevTools > Toggle device toolbar > iPad Pro display, the mindfulness body section image is too large and pushs the text out of view.
+
+        * Before fix
+
+        ![Screenshot of iPad Pro bug](documentation/screenshots/testing/image-scaling-bug-3.jpg)
+
+        * After fix
+
+        ![Screenshot of iPad Pro bug](documentation/screenshots/testing/image-scaling-bug-fix-3.jpg)
+        
+    * 4K 
+
+        When viewing the site using the Chrome DevTools > Toggle device toolbar > 4K display, the mindfulness section images are overly streched.
+
+        * Before fix
+
+        ![Screenshot of iPad Pro bug](documentation/screenshots/testing/image-scaling-bug-4.jpg)
+
+        * After fix
+
+        ![Screenshot of iPad Pro bug](documentation/screenshots/testing/image-scaling-bug-fix-4.jpg)
+
+        *Note: YouTube video images are distorted due to zoom.*
+        
 ## Deployment
 
 The site was deployed to GitHub pages using the steps listed below: 
