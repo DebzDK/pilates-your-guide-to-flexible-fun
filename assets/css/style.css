@@ -241,7 +241,7 @@ ul {
 }
 
 section h2,
-section h3 {
+section h3:not(#form-section-header) {
     background-color: #ffffff55;
     border: 1px solid rgba(0, 0, 0, .4);
 }
@@ -404,6 +404,7 @@ footer {
 }
 
 #form-section-header {
+    font-size: 14.4px;
     margin-left: 65px;
 }
 
