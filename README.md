@@ -161,52 +161,58 @@ Each feature listed below was chosen to provide users with a clear, logical path
     * Manual foreground and background colour testing
         * Navigation bar
             * Text\
-            Contrast Ratio: <b>[13.88:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=F5F5F5)</b>
+                Contrast Ratio: <b>[13.88:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=F5F5F5)</b>
             * Menu item hover\
-            Contrast Ratio: <b>[10.52:1](https://webaim.org/resources/contrastchecker/?fcolor=F5F5F5&bcolor=61214C)</b>
+                Contrast Ratio: <b>[10.52:1](https://webaim.org/resources/contrastchecker/?fcolor=F5F5F5&bcolor=61214C)</b>
             * Dropdown menu item\
-            Contrast Ratio: <b>[7.82:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=BABABF)</b>
+                Contrast Ratio: <b>[7.82:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=BABABF)</b>
             * Dropdown menu item hover\
-            Contrast Ratio: <b>[11.41:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=DDDDDD)</b>
+                Contrast Ratio: <b>[11.14:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=DDDDDD)</b>
         * Landing page image overlay\
-        Contrast Ratio: <b>[14.82:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=F5FFFA)</b>
+            Contrast Ratio: <b>[14.82:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=F5FFFA)</b>
         * Body\
-        Contrast Ratio: <b>[7.82:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=BABABF)</b>
+            Contrast Ratio: <b>[7.82:1](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=BABABF)</b>
         * Footer
             * Text\
-            Contrast Ratio: <b>[14.82:1](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=61214C)</b>
+                Contrast Ratio: <b>[11.47:1](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=61214C)</b>
             * Links\
-            Contrast Ratio: <b>[5.01:1](https://webaim.org/resources/contrastchecker/?fcolor=F29188&bcolor=61214C)</b>
+                Contrast Ratio: <b>[5.01:1](https://webaim.org/resources/contrastchecker/?fcolor=F29188&bcolor=61214C)</b>
 
 * Lighthouse
-    * Desktop
+    * Initial report
+        * Desktop
 
-    ![Screenshot of lighthouse desktop result](documentation/screenshots/testing/lighthouse-desktop.jpg)
-    ![Screenshot of lighthouse desktop result performance issues](documentation/screenshots/testing/lighthouse-desktop-performance-issues.jpg)
-    ![Screenshot of lighthouse desktop result best practice issues](documentation/screenshots/testing/lighthouse-desktop-best-practice-issues.jpg)
+        ![Screenshot of initial Lighthouse desktop report](documentation/screenshots/testing/lighthouse-desktop-report.jpg)
+        ![Screenshot of initial Lighthouse desktop report performance issues](documentation/screenshots/testing/lighthouse-desktop-performance-issues.jpg)
+        ![Screenshot of initial Lighthouse desktop report best practice issues](documentation/screenshots/testing/lighthouse-desktop-best-practice-issues.jpg)
 
-    * Mobile
-        * Normal
+        * Mobile
 
-        ![Screenshot of lighthouse mobile result](documentation/screenshots/testing/lighthouse-mobile.jpg)
-        * Incognito
+            ![Screenshot of Lighthouse mobile result](documentation/screenshots/testing/lighthouse-mobile-report.jpg)
 
-        ![Screenshot of lighthouse mobile incognito result](documentation/screenshots/testing/lighthouse-mobile-incognito.jpg)
+    * Secondary report
+        * Desktop - (report can be found [here](documentation/reports/secondary-lighthouse-desktop-report.html))
+        
+        ![Screenshot of secondary Lighthouse desktop report](documentation/screenshots/testing/lighthouse-desktop-report-2.jpg)
+        
+        * Mobile - (report can be found [here](documentation/reports/secondary-lighthouse-mobile-report.html))
+        
+        ![Screenshot of secondary Lighthouse mobile report](documentation/screenshots/testing/lighthouse-mobile-report-2.jpg)
 
 ### Fixed bugs
 The site had issues with scaling the mindfulness section images in Firefox and on iPhone devices.
 <br>
 The iPhone issue was discovered after sending a link to the site to my family members to get help testing responsiveness on different devices, in addition to using Chrome Dev tools to do the same test.
 <br>
-<br>
-Before fix:
 
-![Screenshot 1 of image scaling bug](documentation/screenshots/testing/image-scaling-bug-1.jpg)
-![Screenshot 2 of image scaling bug](documentation/screenshots/testing/image-scaling-bug-2.jpg)
+* Before fix
 
-After fix (see commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/07fa2a3404067d527fff23a5e0052c6fd749121d#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae), re-tested using the [LambdaTest cross-browser testing tool](https://www.lambdatest.com/)):
+    ![Screenshot 1 of image scaling bug](documentation/screenshots/testing/image-scaling-bug-1.jpg)
+    ![Screenshot 2 of image scaling bug](documentation/screenshots/testing/image-scaling-bug-2.jpg)
 
-![Screenshot of fixed image scaling issue](documentation/screenshots/testing/fixed-image-scaling-bug.jpg)
+* After fix (see commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/07fa2a3404067d527fff23a5e0052c6fd749121d#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709ae), re-tested using the [LambdaTest cross-browser testing tool](https://www.lambdatest.com/)):
+
+    ![Screenshot of fixed image scaling issue](documentation/screenshots/testing/fixed-image-scaling-bug.jpg)
 
 ### Unfixed bugs
 On iPads, the mindfulness body section image is too large and pushs the text out of view.
