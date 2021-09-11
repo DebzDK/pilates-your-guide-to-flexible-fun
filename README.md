@@ -207,11 +207,11 @@ Each feature listed below was chosen to provide users with a clear, logical path
             ![Screenshot of Lighthouse mobile result](documentation/screenshots/testing/lighthouse-mobile-report.jpg)
 
     * Secondary report
-        * Desktop - (report can be found [here](documentation/reports/secondary-lighthouse-desktop-report.html))
+        * Desktop - (report can be found [here](https://htmlpreview.github.io/?https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/blob/main/documentation/reports/secondary-lighthouse-desktop-report.html))
         
         ![Screenshot of secondary Lighthouse desktop report](documentation/screenshots/testing/lighthouse-desktop-report-2.jpg)
         
-        * Mobile - (report can be found [here](documentation/reports/secondary-lighthouse-mobile-report.html))
+        * Mobile - (report can be found [here](https://htmlpreview.github.io/?https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/blob/main/documentation/reports/secondary-lighthouse-mobile-report.html))
         
         ![Screenshot of secondary Lighthouse mobile report](documentation/screenshots/testing/lighthouse-mobile-report-2.jpg)
 
