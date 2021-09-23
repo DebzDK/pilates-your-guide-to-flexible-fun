@@ -34,7 +34,7 @@ Google Fonts was used to find and select fonts for the site's typography.
 
 The site's colour scheme was chosen using the Adobe Color scheme extraction tool and an [image](assets/images/colour-scheme-inspiration.jpg) found from a Google search for 'sunset pilates'.
 <br>
-All colours except #F2DAC4 were used.
+All colours except `#F2DAC4` were used.
 
 ![Adobe Color scheme extraction tool screenshot](documentation/screenshots/evidence/colour-scheme.jpg)
 
