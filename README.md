@@ -32,7 +32,7 @@ Google Fonts was used to find and select fonts for the site's typography.
 
 ### Colours
 
-The site's colour scheme was chosen using the Adobe Color scheme extraction tool and an [image](https://www.google.com/search?q=sunset+pilates&tbm=isch&ved=2ahUKEwjzkcyagfXyAhUT8xoKHXw4CEcQ2-cCegQIABAA&oq=sunset+pilates&gs_lcp=CgNpbWcQAzIFCAAQgAQyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBg6CAgAEIAEELEDOgsIABCABBCxAxCDAToGCAAQCBAeOggIABAIEAoQHjoECAAQHlCCPljaR2DQSWgAcAB4AIABYIgB-gOSAQE3mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=VqA7YfOOK5Pma_zwoLgE&bih=762&biw=1535&rlz=1C1CHBF_enGB848GB848#imgrc=uMSFgODXB9XbRM) found from a Google search for 'sunset pilates'.
+The site's colour scheme was chosen using the Adobe Color scheme extraction tool and an [image](assets/images/colour-scheme-inspiration.jpg) found from a Google search for 'sunset pilates'.
 <br>
 All colours except #F2DAC4 were used.
 
