@@ -149,15 +149,20 @@ Each feature listed below was chosen to provide users with a clear, logical path
 ### Validator testing
 
 * HTML
-    * There were 12 HTML errors found, as shown below, and fixed after passing through the official [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun%2F).
+    * There were 12 HTML errors found, as shown below, after passing through the official W3C Markup Validator.
 
         ![HTML validator errors 1-3 image](documentation/screenshots/testing/errors-1-to-3.jpg)
         ![HTML validator errors 4-8 image](documentation/screenshots/testing/errors-4-to-8.jpg)
         ![HTML validator errors 9-12 image](documentation/screenshots/testing/errors-9-to-12.jpg)
+    * These errors were fixed, as shown below, and can be verified by clicking [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun%2F).
+        ![HTML validator errors 9-12 image](documentation/screenshots/testing/fixed-html-errors.jpg)
 
 * CSS
-    * 1 error was found and fixed (see commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/13cf30d710514d969eed371f093967e1288a7826)) after passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun&profile=css3svg&usermedium=all&warning=1&vextwarning=).
+    * 1 error was found and fixed (see commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/13cf30d710514d969eed371f093967e1288a7826)) after passing through the official (Jigsaw) validator.
+    This can be verified by clicking [here](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun&profile=css3svg&usermedium=all&warning=1&vextwarning=).
     * There are 5 warnings regarding use of vendor extensions. The CSS referred to in these warnings are necessary for compatibility in Safari, IE/Microsoft Edge, and Firefox.
+
+<br>
 
 * Accessibility
     * 1 error and 9 alerts were found and fixed after running the [WAVE Accessibility Evaluation tool](https://wave.webaim.org/report#/https://debzdk.github.io/pilates-your-guide-to-flexible-fun).
