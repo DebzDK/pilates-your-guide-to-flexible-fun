@@ -281,7 +281,7 @@ The site was deployed to GitHub pages using the steps listed below:
 * In the GitHub repository, navigate to the Settings tab
 * From the source section drop-down menu, select the 'main' branch
     ![Deployment step 1 image](documentation/screenshots/evidence/deployment-step-1.jpg)
-* Once the 'main' branch has been selected, the page will be automatically refreshed and indicate the state of deploymeny (which should eventually show as successful)
+* Once the 'main' branch has been selected, the page will be automatically refreshed and indicate the state of deployment (which should eventually show as successful)
     ![Deployment step 2 image](documentation/screenshots/evidence/deployment-step-2.jpg)
     ![Deployment final step image](documentation/screenshots/evidence/deployment-final.jpg)
 
