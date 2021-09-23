@@ -289,7 +289,7 @@ The live link can be found here - https://debzdk.github.io/pilates-your-guide-to
 
 ### Local deployment
 
-Since my work is in a publicly-accesible repository, it can be plagiarised in 3 different ways:
+Since my work is in a publicly-accesible repository, it can be copied in 3 different ways:
 
 1. Cloning the repository
 
