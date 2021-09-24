@@ -137,11 +137,12 @@ Each feature listed below was chosen to provide users with a clear, logical path
         * [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout) - used instead of float for responsive web design
 * Technologies
     * [Adobe Color](https://color.adobe.com/) - used to create colour scheme for website
+    * [CompressJPEG](https://compressjpeg.com/) - used to compress all website images
     * [Trello](https://trello.com/) - used to document planning/design and development project progress and steps
     * [Git](https://git-scm.com/) - used for version control
     * [GitHub](https://github.com/) - used for internet hosting and version control through use of Git
     * [Gitpod](https://gitpod.io/) - used as online IDE for software development
-        * The terminal was used to create branchs to work on before merging into the main branch. These branches has been preserved for the sake of the assessment, otherwise they would have been deleted after use.
+        * The terminal was used to create branchs to work on before merging into the main branch. These branches have been preserved for the sake of the assessment, otherwise they would have been deleted after use.
         *Note: initial merges were missing the '--no-ff' flag so commit history was lost*
 
         ![Screenshot of all GitHub branches for project](documentation/screenshots/evidence/branches.jpg)
