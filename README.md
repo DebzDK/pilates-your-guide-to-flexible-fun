@@ -132,13 +132,15 @@ Each feature listed below was chosen to provide users with a clear, logical path
 ## Languages and technologies used
 
 * Languages
-    * [HTML](https://en.wikipedia.org/wiki/HTML)
-    * [CSS](https://en.wikipedia.org/wiki/CSS)
-        * [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout)
+    * [HTML](https://en.wikipedia.org/wiki/HTML) - used to create webpages for website
+    * [CSS](https://en.wikipedia.org/wiki/CSS) - used to style HTML
+        * [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout) - used instead of float for responsive web design
 * Technologies
-    * [Git](https://git-scm.com/)
-    * [GitHub](https://github.com/)
-    * [Gitpod](https://gitpod.io/)
+    * [Adobe Color](https://color.adobe.com/) - used to create colour scheme for website
+    * [Trello](https://trello.com/) - used to document planning/design and development project progress and steps
+    * [Git](https://git-scm.com/) - used for version control
+    * [GitHub](https://github.com/) - used for internet hosting and version control through use of Git
+    * [Gitpod](https://gitpod.io/) - used as online IDE for software development
         * The terminal was used to create branchs to work on before merging into the main branch. These branches has been preserved for the sake of the assessment, otherwise they would have been deleted after use.
         *Note: initial merges were missing the '--no-ff' flag so commit history was lost*
 
