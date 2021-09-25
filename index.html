@@ -14,21 +14,24 @@
     </head>
 
     <body>
+        <!-- Page header -->
         <header id="top">
-            <div id="logo-container">
-                <a id="header-site-link" href="#top">
-                    <img class="logo" src="assets/images/logo.png" width="50" height="50" alt="Site logo" aria-label="Site logo">
+            <!-- Logo -->
+            <div id="logo-container" class="centered-content">
+                <a id="header-site-link" class="centered-content" href="#top">
+                    <img class="logo" src="assets/images/logo.png" alt="Site logo" aria-label="Site logo">
                     <h1>Pilates <span id="full-title">- Your Guide to Flexible Fun</span></h1>
                 </a>
             </div>
 
+            <!-- Navigation menu -->
             <nav id="menu-container">
-                <ul id="menu">
-                    <li>
+                <ul id="menu" class="centered-content">
+                    <li class="centered-content">
                         <a href="#top" role="button" aria-label="Navigate to home button">Home</a>
                         <hr>
                     </li>
-                    <li class="dropdown-menu">
+                    <li class="centered-content dropdown-menu">
                         <a href="#mindfulness-heading" class="dropdown-btn" role="button" aria-label="Navigate to mindfulness section button">Mindfulness</a>
                         <hr>
                         <div class="dropdown-content">
@@ -36,11 +39,11 @@
                             <a href="#mindful-mental" role="button" aria-label="Navigate to mental health section button">Mental Health</a>
                         </div>
                     </li>
-                    <li>
+                    <li class="centered-content">
                         <a href="#purpose" aria-label="Navigate to purpose section button">Purpose</a>
                     </li>
                 </ul>
-                <ul id="small-screen-menu">
+                <ul id="small-screen-menu" class="centered-content">
                     <li id="burger-menu" class="dropdown-menu">
                         <a href="#" aria-label="Navigation menu">
                             <hr class="bar">
@@ -58,11 +61,13 @@
             </nav>
         </header>
 
+        <!-- Header/Landing page image + overlayed text -->
         <div id="header-image" class="header-dimensions shadow-effect"></div>
         <div id="header-text" class="header-dimensions">
             <span id="header-text-bg" class="center-aligned">Creating balance between mind and body</span>
         </div>
 
+        <!-- Main page content/section (intro to pilates) -->
         <div id="main-content" class="shadow-effect">
             <section class="column">
                 <h2>What is Pilates?</h2>
@@ -107,15 +112,17 @@
 
         <hr class="separator">
 
+        <!-- Mindfulness content/section -->
         <section id="mindfulness-content">
             <h2 id="mindfulness-heading" class="center-aligned">Mindfulness</h2>
+            <!-- Mindfulness 'Body' content/section -->
             <section id="mindful-body">
                 <div id="mindful-bg-1" class="mindful-bg"></div>
                 <img id="mindful-img-1a" src="assets/images/mindfulness-body-image.jpg"
-                     alt="Woman doing hip flexor stretch with arms raised" width="640" height="960"
+                     alt="Woman doing hip flexor stretch with arms raised"
                      aria-label="Image of woman doing hip flexor stretch with arms raised">
                 <img id="mindful-img-1b" src="assets/images/mindfulness-body-2-image.jpg"
-                     alt="Women doing downward facing dog" width="640" height="426"
+                     alt="Women doing downward facing dog"
                      aria-label="Image of women doing downward facing dog">
                 <div>
                     <h2 class="center-aligned">Body</h2>
@@ -165,6 +172,7 @@
                 </div>
             </section>
 
+            <!-- Mindfulness 'Mental Health' content/section -->
             <section id="mindful-mental">
                 <div class="left-aligned">
                     <h2 class="center-aligned">Mental Health</h2>
@@ -197,10 +205,10 @@
                     </div>
                 </div>
                 <div id="mindful-bg-2" class="mindful-bg"></div>
-                <img id="mindful-img-2a" src="assets/images/mindfulness-mental-image.jpg" width="640" height="960"
+                <img id="mindful-img-2a" src="assets/images/mindfulness-mental-image.jpg"
                      alt="Woman sitting on floor relaxing with legs crossed, lights dimmed and laptop open"
                      aria-label="Image of a woman sitting on floor relaxing with legs crossed, lights dimmed and laptop open">
-                <img id="mindful-img-2b" src="assets/images/mindfulness-mental-2-image.jpg" width="640" height="426"
+                <img id="mindful-img-2b" src="assets/images/mindfulness-mental-2-image.jpg"
                      alt="Close up shot of woman's hands reaching towards a mat"
                      aria-label="Close up image of a woman's hands reaching towards a mat">
             </section>
@@ -208,6 +216,7 @@
 
         <hr class="separator">
 
+        <!-- Purpose content/section (closing remarks + app recommendations) -->
         <section id="purpose" class="center-aligned">
             <h2>Purpose</h2>
             <p>
@@ -224,37 +233,57 @@
                 <div class="box">
                     <h3>Headspace</h3>
                     <div id="headspace-qr-code">
-                        <a href="https://play.google.com/store/apps/details?id=com.getsomeheadspace.android"
-                           aria-label="Play Store link for Headspace app" target="_blank" rel="noreferrer noopener">
-                            <img class="app-icon" width="150" height="150" src="assets/images/playstore-headspace-qr-code.png"
-                             alt="Headspace app QR code (for Play Store)" aria-label="QR code for Headspace app on Play Store">
-                        </a>
-                        <a href="https://apps.apple.com/gb/app/headspace-meditation-sleep/id493145008"
-                           aria-label="App Store link for Headspace app" target="_blank" rel="noreferrer noopener">
-                            <img class="app-icon" width="150" height="150" src="assets/images/app-store-headspace-qr-code.png"
-                                alt="Headspace QR Code (for App Store)" aria-label="QR code for Headspace app on the App Store">
-                        </a>
+                        <div>
+                            <img class="app-icon" src="assets/images/playstore-headspace-qr-code.png"
+                            alt="Headspace app QR code (for Play Store)" aria-label="QR code for Headspace app on Play Store">
+                            <a href="https://play.google.com/store/apps/details?id=com.getsomeheadspace.android"
+                            aria-label="Play Store link for Headspace app" target="_blank" rel="noreferrer noopener">
+                            <img src="assets/images/google-play.png" class="app-download-btn"
+                                 alt="Google Play Store download button for Headspace app"
+                                 aria-label="Download button for Headspace app on Play Store">
+                            </a>
+                        </div>
+
+                        <div>
+                            <img class="app-icon" src="assets/images/app-store-headspace-qr-code.png"
+                                 alt="Headspace QR Code (for App Store)" aria-label="QR code for Headspace app on the App Store">
+                            <a href="https://apps.apple.com/gb/app/headspace-meditation-sleep/id493145008"
+                               aria-label="App Store link for Headspace app" target="_blank" rel="noreferrer noopener">
+                            <img src="assets/images/app-store.png" class="app-download-btn"
+                                 alt="App Store download button for Headspace app"
+                                 aria-label="Download button for Headspace app on the App Store">
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="box">
                     <h3>Pilates Exercises - Pilates at Home</h3>
-                    <a href="https://play.google.com/store/apps/details?id=pilatesworkouts.loseweight.dailyyoga"
-                       aria-label="Play Store link for Pilates Exercises - Pilates at Home app" target="_blank"  rel="noreferrer noopener">
-                        <img class="app-icon" width="150" height="150" src="assets/images/playstore-pilates-exercises-qr-code.png"
-                             alt="Pilates Exercises app QR code (for Play Store)" aria-label="QR code for Pilates Exercises app on Play Store">
-                    </a>
-                    <p>(Not available on iOS)</p>
+                    <div id="pilates-qr-code">
+                        <div>
+                            <img class="app-icon" src="assets/images/playstore-pilates-exercises-qr-code.png"
+                                alt="Pilates Exercises app QR code (for Play Store)" aria-label="QR code for Pilates Exercises app on Play Store">
+                            <a href="https://play.google.com/store/apps/details?id=pilatesworkouts.loseweight.dailyyoga"
+                               aria-label="Play Store link for Pilates Exercises - Pilates at Home app" target="_blank"  rel="noreferrer noopener">
+                                <img src="assets/images/google-play.png" class="app-download-btn"
+                                     alt="Google Play Store download button for Pilates Exercises - Pilates at Home app"
+                                     aria-label="Download button for Pilates Exercises - Pilates at Home app on Play Store">
+                            </a>
+                            <p>(Not available on iOS)</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
+        <!-- Page footer -->
         <footer>
+            <!-- Subscription form -->
             <section class="column">
                 <h4 id="form-section-header">Stay Connected</h4>
                 <div class="row">
                     <a href="#top">
                         <img id="footer-logo" class="logo vertical-center" src="assets/images/logo.png"
-                             width="50" height="50" alt="Site logo" aria-label="Site logo">
+                             alt="Site logo" aria-label="Site logo">
                     </a>
                     <form action="confirmation.html" class="vertical-center">
                         <label for="email">Subscribe for more app and YouTube channel recommendations</label>
@@ -264,11 +293,12 @@
                     </form>
                 </div>
             </section>
+            <!-- Licencing -->
             <section class="column center-aligned">
                 <h4>Licence</h4>
                 <span>
                     <img alt="Creative Commons Licence" src="assets/images/creative-commons.png"
-                         width="88" height="31" aria-label="Creative Commons Licence image">
+                         aria-label="Creative Commons Licence image">
                     <br>
                     This work is licensed under a
                     <a rel="license noreferrer noopener" href="http://creativecommons.org/licenses/by-sa/4.0/" class="footer-link" target="_blank"
@@ -281,6 +311,7 @@
                     It is not scientifically-proven nor professional advice and does not constitute a medical advisory service.
                 </span>
             </section>
+            <!-- Navigation menu -->
             <section class="column centered-content">
                 <h4>Navigation</h4>
                 <ul id="footer-nav-list">

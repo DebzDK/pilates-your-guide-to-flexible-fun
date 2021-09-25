@@ -32,9 +32,9 @@ Google Fonts was used to find and select fonts for the site's typography.
 
 ### Colours
 
-The site's colour scheme was chosen using the Adobe Color scheme extraction tool and an [image](https://www.google.com/search?q=sunset+pilates&tbm=isch&ved=2ahUKEwjzkcyagfXyAhUT8xoKHXw4CEcQ2-cCegQIABAA&oq=sunset+pilates&gs_lcp=CgNpbWcQAzIFCAAQgAQyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBg6CAgAEIAEELEDOgsIABCABBCxAxCDAToGCAAQCBAeOggIABAIEAoQHjoECAAQHlCCPljaR2DQSWgAcAB4AIABYIgB-gOSAQE3mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=VqA7YfOOK5Pma_zwoLgE&bih=762&biw=1535&rlz=1C1CHBF_enGB848GB848#imgrc=uMSFgODXB9XbRM) found from a Google search for 'sunset pilates'.
+The site's colour scheme was chosen using the Adobe Color scheme extraction tool and an [image](assets/images/colour-scheme-inspiration.jpg) found from a Google search for 'sunset pilates'.
 <br>
-All colours except #F2DAC4 were used.
+All colours except `#F2DAC4` were used.
 
 ![Adobe Color scheme extraction tool screenshot](documentation/screenshots/evidence/colour-scheme.jpg)
 
@@ -132,14 +132,18 @@ Each feature listed below was chosen to provide users with a clear, logical path
 ## Languages and technologies used
 
 * Languages
-    * [HTML](https://en.wikipedia.org/wiki/HTML)
-    * [CSS](https://en.wikipedia.org/wiki/CSS)
-        * [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout)
+    * [HTML](https://en.wikipedia.org/wiki/HTML) - used to create webpages for website
+    * [CSS](https://en.wikipedia.org/wiki/CSS) - used to style HTML
+        * [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout) - used instead of float for responsive web design
 * Technologies
-    * [Git](https://git-scm.com/)
-    * [GitHub](https://github.com/)
-    * [Gitpod](https://gitpod.io/)
-        * The terminal was used to create branchs to work on before merging into the main branch. These branches has been preserved for the sake of the assessment, otherwise they would have been deleted after use.
+    * [Adobe Color](https://color.adobe.com/) - used to create colour scheme for website
+    * [Autoprefixer](https://autoprefixer.github.io/) - used to automatically add vendor prefixes for browser compatibility
+    * [CompressJPEG](https://compressjpeg.com/) - used to compress all website images
+    * [Trello](https://trello.com/) - used to document planning/design and development project progress and steps
+    * [Git](https://git-scm.com/) - used for version control
+    * [GitHub](https://github.com/) - used for internet hosting and version control through use of Git
+    * [Gitpod](https://gitpod.io/) - used as online IDE for software development
+        * The terminal was used to create branchs to work on before merging into the main branch. These branches have been preserved for the sake of the assessment, otherwise they would have been deleted after use.
         *Note: initial merges were missing the '--no-ff' flag so commit history was lost*
 
         ![Screenshot of all GitHub branches for project](documentation/screenshots/evidence/branches.jpg)
@@ -149,15 +153,20 @@ Each feature listed below was chosen to provide users with a clear, logical path
 ### Validator testing
 
 * HTML
-    * There were 12 HTML errors found, as shown below, and fixed after passing through the official [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun%2F).
+    * There were 12 HTML errors found, as shown below, after passing through the official W3C Markup Validator.
 
         ![HTML validator errors 1-3 image](documentation/screenshots/testing/errors-1-to-3.jpg)
         ![HTML validator errors 4-8 image](documentation/screenshots/testing/errors-4-to-8.jpg)
         ![HTML validator errors 9-12 image](documentation/screenshots/testing/errors-9-to-12.jpg)
+    * These errors were fixed, as shown below, and can be verified by clicking [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun%2F).
+        ![HTML validator errors 9-12 image](documentation/screenshots/testing/fixed-html-errors.jpg)
 
 * CSS
-    * 1 error was found and fixed (see commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/13cf30d710514d969eed371f093967e1288a7826)) after passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun&profile=css3svg&usermedium=all&warning=1&vextwarning=).
+    * 1 error was found and fixed (see commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/13cf30d710514d969eed371f093967e1288a7826)) after passing through the official (Jigsaw) validator.
+    This can be verified by clicking [here](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun&profile=css3svg&usermedium=all&warning=1&vextwarning=).
     * There are 5 warnings regarding use of vendor extensions. The CSS referred to in these warnings are necessary for compatibility in Safari, IE/Microsoft Edge, and Firefox.
+
+<br>
 
 * Accessibility
     * 1 error and 9 alerts were found and fixed after running the [WAVE Accessibility Evaluation tool](https://wave.webaim.org/report#/https://debzdk.github.io/pilates-your-guide-to-flexible-fun).
@@ -281,7 +290,7 @@ The site was deployed to GitHub pages using the steps listed below:
 * In the GitHub repository, navigate to the Settings tab
 * From the source section drop-down menu, select the 'main' branch
     ![Deployment step 1 image](documentation/screenshots/evidence/deployment-step-1.jpg)
-* Once the 'main' branch has been selected, the page will be automatically refreshed and indicate the state of deploymeny (which should eventually show as successful)
+* Once the 'main' branch has been selected, the page will be automatically refreshed and indicate the state of deployment (which should eventually show as successful)
     ![Deployment step 2 image](documentation/screenshots/evidence/deployment-step-2.jpg)
     ![Deployment final step image](documentation/screenshots/evidence/deployment-final.jpg)
 
@@ -289,7 +298,7 @@ The live link can be found here - https://debzdk.github.io/pilates-your-guide-to
 
 ### Local deployment
 
-Since my work is in a publicly-accesible repository, it can be plagiarised in 3 different ways:
+Since my work is in a publicly-accesible repository, it can be copied in 3 different ways:
 
 1. Cloning the repository
 
@@ -341,3 +350,9 @@ Creative Commons licence image | [Creative Commons](https://creativecommons.org/
 '5-Minute Pilates Stretching Routine' video | [YouTube](https://www.youtube.com/watch?v=aPN89GOsDaI&t=7s&ab_channel=TheBalancedLifePilateswithRobinLong) | [The Balanced Life Pilates With Robin Long](https://www.youtube.com/channel/UCjXa9ErUqMDzaI3plO8a-FA)
 '15 Min. Full Body Stretch' video | [YouTube](https://www.youtube.com/watch?v=g_tea8ZNk5A&t=7s&ab_channel=MadyMorrison) | [Mady Morrison](https://www.youtube.com/channel/UCHJBoCDxaCTRrwCHXEBA-BA)
 QR codes | [QRCode Monkey](https://www.qrcode-monkey.com/) | [QRCode Monkey](https://www.qrcode-monkey.com/)
+'Get it on Google Play' button image | [TravelTimN](https://github.com/TravelTimN/ci-milestone01-ucfd/blob/main/assets/images/icons/google-play.png) | [TravelTimN](https://github.com/TravelTimN)
+'Get it on App Store' button image | [TravelTimN](https://github.com/TravelTimN/) | [TravelTimN](https://github.com/TravelTimN/ci-milestone01-ucfd/blob/main/assets/images/icons/app-store.png)
+
+## Acknowledgements
+
+Thanks to my mentor [Tim Nelson](https://github.com/TravelTimN) for his encouragement and constructive feedback!
