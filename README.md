@@ -137,6 +137,7 @@ Each feature listed below was chosen to provide users with a clear, logical path
         * [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout) - used instead of float for responsive web design
 * Technologies
     * [Adobe Color](https://color.adobe.com/) - used to create colour scheme for website
+    * [Autoprefixer](https://autoprefixer.github.io/) - used to automatically add vendor prefixes for browser compatibility
     * [CompressJPEG](https://compressjpeg.com/) - used to compress all website images
     * [Trello](https://trello.com/) - used to document planning/design and development project progress and steps
     * [Git](https://git-scm.com/) - used for version control
