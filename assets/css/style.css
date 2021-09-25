@@ -336,8 +336,12 @@ iframe {
     display: flex;
 }
 
-#headspace-qr-code {
-    margin: auto;
+#headspace-qr-code,
+#pilates-qr-code {
+    margin: 15px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -352,6 +356,13 @@ iframe {
 .app-icon {
     width: 150px;
     margin: 0 auto;
+}
+
+.app-download-btn {
+    display: flex;
+    width: 150px;
+    height: auto;
+    margin: 0 auto 10px auto;
 }
 /*#endregion*/
 
