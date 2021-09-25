@@ -349,3 +349,9 @@ Creative Commons licence image | [Creative Commons](https://creativecommons.org/
 '5-Minute Pilates Stretching Routine' video | [YouTube](https://www.youtube.com/watch?v=aPN89GOsDaI&t=7s&ab_channel=TheBalancedLifePilateswithRobinLong) | [The Balanced Life Pilates With Robin Long](https://www.youtube.com/channel/UCjXa9ErUqMDzaI3plO8a-FA)
 '15 Min. Full Body Stretch' video | [YouTube](https://www.youtube.com/watch?v=g_tea8ZNk5A&t=7s&ab_channel=MadyMorrison) | [Mady Morrison](https://www.youtube.com/channel/UCHJBoCDxaCTRrwCHXEBA-BA)
 QR codes | [QRCode Monkey](https://www.qrcode-monkey.com/) | [QRCode Monkey](https://www.qrcode-monkey.com/)
+'Get it on Google Play' button image | [TravelTimN](https://github.com/TravelTimN/ci-milestone01-ucfd/blob/main/assets/images/icons/google-play.png) | [TravelTimN](https://github.com/TravelTimN)
+'Get it on App Store' button image | [TravelTimN](https://github.com/TravelTimN/) | [TravelTimN](https://github.com/TravelTimN/ci-milestone01-ucfd/blob/main/assets/images/icons/app-store.png)
+
+## Acknowledgements
+
+Thanks to my mentor [Tim Nelson](https://github.com/TravelTimN) for his encouragement and constructive feedback!
