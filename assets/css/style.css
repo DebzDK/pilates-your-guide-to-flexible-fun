@@ -44,27 +44,27 @@ a:not(.footer-link) {
 }
 /*#endregion */
 
-/*#region Headings, navigation menu, logo */
+/*#region Navigation menu */
 header {
-    background-color: whitesmoke; /* Sets background colour to be something different and brighter than the body's */
-    height: 90px; /* Hard-set size to ensure all content is contained, vertically-spaced, and allows for later fixed positioning of dropdown menu */
-    display: flex; /* Centers elements in <header> */
+    background-color: whitesmoke;
+    height: 90px;
+    display: flex;
 }
 
 #header-site-link {
-    color: inherit; /* Set to inherit so that the colour defined for body is used */
+    color: inherit;
 }
 
 .centered-content {
-    display: flex; /* Set for responsiveness */
-    align-items: center; /* Vertically centered flexed content */
+    display: flex;
+    align-items: center;
 }
 
 h1 {
-    margin-left: 15px; /* Set for fixed spacing between logo and h1 text */
-    font-size: 2rem; /* Set after testing for appropriate size for header text */
-    font-weight: 500; /* Set to go against normal font-weight for <h1> elements */
-    min-width: 100px; /* Set so that text doesn't continue to wrap when on very small screens */
+    margin-left: 15px;
+    font-size: 2rem;
+    font-weight: 500;
+    min-width: 100px;
 }
 
 .logo {
@@ -73,8 +73,8 @@ h1 {
 }
 
 #logo-container {
-    flex: 2; /* Set to higher value so that logo area takes up more space than the menu area */
-    padding-left: 20px; /* Set for fixed spacing between logo and screen edge */
+    flex: 2;
+    padding-left: 20px;
 }
 
 #menu-container {
@@ -83,29 +83,29 @@ h1 {
 
 #menu,
 #small-screen-menu {
-    justify-content: flex-end; /* Set to ensure menu positions against screen edge*/
-    font-size: 1.8rem; /* Set after testing for appropriate size for menu text */
-    height: 100%; /* Set to make menu take up full height of header space */
+    justify-content: flex-end;
+    font-size: 1.8rem;
+    height: 100%;
 }
 
 #menu > li {
-    height: 100%; /* Set to make <li> take up full height of menu space  so that on-hover colour change takes up full space */
+    height: 100%;
 }
 
 #menu > li,
 #small-screen-menu > li {
-    padding-left: 20px; /* Set to space menu items when not displaying burger menu and to pad burger menu symbol from edge of content box */
+    padding-left: 20px;
 }
 
 #menu > li:hover,
 #small-screen-menu > li:hover {
-    background-color: rgba(97, 33, 76, .8); /* rgb of purple colour taken from logo, displays when hovering menu items */
+    background-color: rgba(97, 33, 76, .8);
 }
 
 #menu > li a,
 #small-screen-menu > li a {
-    color: inherit; /* Set to inherit so that body colour is used instead */
-    padding-right: 20px; /* Set to add fixed space between menu item and separator when not displaying burger menu and increases burger menu width when displaying burger menu */
+    color: inherit;
+    padding-right: 20px;
 }
 
 /* CSS equivalent of burger menu symbol */
@@ -116,18 +116,18 @@ h1 {
 }
 
 .dropdown-menu {
-    position: relative; /* Set to relative so that dropdown menu positions relative to sibling content */
+    position: relative;
 }
 
 .dropdown-content {
     width: 198px;
-    top: 90px; /* Set to match height set for <header> element so that dropdown content positions underneath it */
-    left: 0px; /* Set to align element with parent element edge */
-    display: none; /* Set to hide dropdown content */
-    position: absolute; /* Set to ensure dropdown content is always in the same position, relative to its parent element */
-    background-color: whitesmoke; /* Set to match <header> element background colour */
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2); /* Set to make dropdown menu less flat*/
-    z-index: 1; /* Set so that element displays above other element */
+    top: 90px;
+    left: 0px;
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2);
+    z-index: 1;
 }
 
 .dropdown-content a {
@@ -164,7 +164,7 @@ h1 {
 }
 /*#endregion */
 
-/*#region Header */
+/*#region Header/Landing page image */
 .header-dimensions {
     width: 100%;
     height: 600px;
@@ -379,6 +379,10 @@ footer {
 
 #footer-nav-list {
     margin-top: 5px;
+}
+
+#footer-nav-list a {
+    color: inherit;
 }
 
 .footer-link, #footer-nav-list a:hover {
