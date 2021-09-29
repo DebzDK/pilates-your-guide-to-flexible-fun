@@ -132,9 +132,9 @@ Each feature listed below was chosen to provide users with a clear, logical path
 ## Languages and technologies used
 
 * Languages
-    * [HTML](https://en.wikipedia.org/wiki/HTML) - used to create webpages for website
-    * [CSS](https://en.wikipedia.org/wiki/CSS) - used to style HTML
-        * [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout) - used instead of float for responsive web design
+    * [HTML5](https://en.wikipedia.org/wiki/HTML5) - used to create and structure webpages using semantic (meaningful) markup
+    * [CSS3](https://en.wikipedia.org/wiki/CSS) - used Cascading Style Sheets to style HTML
+        * [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout) - used instead of `float` property for responsive web design
 * Technologies
     * [Adobe Color](https://color.adobe.com/) - used to create colour scheme for website
     * [Autoprefixer](https://autoprefixer.github.io/) - used to automatically add vendor prefixes for browser compatibility
@@ -164,7 +164,7 @@ Each feature listed below was chosen to provide users with a clear, logical path
 * CSS
     * 1 error was found and fixed (see commit [here](https://github.com/DebzDK/pilates-your-guide-to-flexible-fun/commit/13cf30d710514d969eed371f093967e1288a7826)) after passing through the official (Jigsaw) validator.
     This can be verified by clicking [here](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdebzdk.github.io%2Fpilates-your-guide-to-flexible-fun&profile=css3svg&usermedium=all&warning=1&vextwarning=).
-    * There are 5 warnings regarding use of vendor extensions. The CSS referred to in these warnings are necessary for compatibility in Safari, IE/Microsoft Edge, and Firefox.
+    * There are 103 warnings regarding the use of vendor extensions. The properties referred to in these warnings are necessary for browser compatibility in Chrome, Safari, IE/Microsoft Edge, and Firefox.
 
 <br>
 
